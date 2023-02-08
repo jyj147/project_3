@@ -47,38 +47,42 @@ header .HD1 .Register {
   background-color: burlywood;
   display: flex;
   justify-content: space-around;
+  padding: 17px 71px 0px 122px;
 }
 header .HD1 .Register1 {
   font-size: 12px;
   color: #797979;
+  padding: 22px;
 }
 header .HD1 .Register1 r {
   color: red;
 }
 header .HD1 .Register2 {
   display: contents;
+  padding: 22px;
 }
 header .HD1 .Register2 .Fb {
-  width: 100px;
-  height: 60px;
+  width: 35px;
+  height: 35px;
   background-color: blueviolet;
 }
 header .HD1 .Register2 .Tw {
-  width: 100px;
-  height: 60px;
+  width: 35px;
+  height: 35px;
   background-color: blueviolet;
 }
 header .HD1 .Register2 .In {
-  width: 100px;
-  height: 60px;
+  width: 35px;
+  height: 35px;
   background-color: blueviolet;
 }
 header .HD1 .Register3 {
   display: flex;
+  padding: 11px;
 }
 header .HD1 .Register3 .Ph {
-  width: 50px;
-  height: 20px;
+  width: 25px;
+  height: 22px;
   background-color: orange;
 }
 header .HD1 .Register3 p {

@@ -1,12 +1,13 @@
 @charset "UTF-8";
 
-header{
+header {
     // width: 1903px;
     width: 1920px;
     height: 159px;
     margin: 0 auto;
-    background-color:red;
-    .HD{
+    background-color: red;
+
+    .HD {
         height: 100%;
 
         &1 {
@@ -21,79 +22,86 @@ header{
                 width: 461px;
                 height: 64px;
                 text-align: center;
-                padding: 0 15px; 
-                
-               
-                p{
+                padding: 0 15px;
+
+
+                p {
                     color: #797979;
                     padding: 23px;
                     font-size: 12px;
-                } 
-            
-            
-            } 
-            
-            .Register{
-                    width: 800px;
-                    height: 64px;
-                    background-color: burlywood;
-                    display: flex;
-                    justify-content: space-around;
+                }
 
-                    &1{
+
+            }
+
+            .Register {
+                width: 800px;
+                height: 64px;
+                background-color: burlywood;
+                display: flex;
+                justify-content: space-around;
+                padding: 17px 71px 0px 122px;
+
+                &1 {
+                    font-size: 12px;
+                    color: #797979;
+                    padding: 11px;
+
+                    r {
+                        color: red;
+                    }
+                }
+
+                &2 {
+                    display: contents;
+                    padding: 22px;
+
+                    .Fb {
+                        width: 35px;
+                        height: 35px;
+                        background-color: blueviolet;
+                    }
+
+                    .Tw {
+                        width: 35px;
+                        height: 35px;
+                        background-color: blueviolet;
+                    }
+
+                    .In {
+                        width: 35px;
+                        height: 35px;
+                        background-color: blueviolet;
+                    }
+
+                }
+
+                &3 {
+                    display: flex;
+                    padding: 11px;
+
+                    .Ph {
+                        width: 25px;
+                        height: 22px;
+                        background-color: orange;
+                    }
+
+                    p {
                         font-size: 12px;
                         color: #797979;
-
-                        r{
-                            color: red;
-                        }
                     }
 
-                    &2{
-                        display: contents;
-
-                        .Fb{
-                            width: 100px;
-                            height: 60px;
-                            background-color: blueviolet;
-                        }
-                        .Tw{
-                            width: 100px;
-                            height: 60px;
-                            background-color: blueviolet;
-                        }
-                        .In{
-                            width: 100px;
-                            height: 60px;
-                            background-color: blueviolet;
-                        }
-                    
+                    r {
+                        color: red;
                     }
-
-                    &3{
-                        display: flex;
-
-                        .Ph{
-                            width: 50px;
-                            height: 20px;
-                            background-color: orange;
-                        }
-
-                       p{ font-size: 12px;
-                        color: #797979;}
-                        r{
-                            color: red;
-                        }
-                    }
+                }
             }
         }
-    
+
         &2 {
             height: 60%;
             background-color: pink;
         }
     }
-  
+
 }
-
-
