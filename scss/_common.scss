@@ -114,6 +114,28 @@ header {
                 width: 700px;
                 height: 55px;
                 background-color: aquamarine;
+                display: flex;
+
+                .mu{
+                    padding: 15px 0 0 28px;
+                    font-size: 18px;
+                    color: #797979;
+                }
+                .mll{
+                    display: flex;
+                    padding: 0 0 0 20px;
+                    .ml1{
+                        width: 70px;
+                        height: 55px;
+                        background-color: orange;
+                    }
+                    .ml{
+                        width: 70px;
+                        height: 55px;
+                        background-color: red;
+                    }
+                }
+                
             }
         }
     }

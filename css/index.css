@@ -108,4 +108,24 @@ header .HD2 .menu {
   width: 700px;
   height: 55px;
   background-color: aquamarine;
+  display: flex;
+}
+header .HD2 .menu .mu {
+  padding: 15px 0 0 28px;
+  font-size: 18px;
+  color: #797979;
+}
+header .HD2 .menu .mll {
+  display: flex;
+  padding: 0 0 0 20px;
+}
+header .HD2 .menu .mll .ml1 {
+  width: 70px;
+  height: 55px;
+  background-color: orange;
+}
+header .HD2 .menu .mll .ml {
+  width: 70px;
+  height: 55px;
+  background-color: red;
 }
