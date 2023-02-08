@@ -158,6 +158,14 @@ footer{
             height: 120px;
             background-color: azure;
         }
+
+        .GG{
+            width: 1320px;
+            height: 515px;
+            background-color: aqua;
+            display: flex;
+            justify-content: space-between;
+        }
         .Flogo{
             width: 300px;
             height: 348px;
@@ -169,6 +177,16 @@ footer{
             width: 300px;
             height: 348px;
             background-color: olive;
+        }
+        .LI{
+            width: 300px;
+            height: 348px;
+            background-color: orange;
+        }
+        .GET{
+            width: 300px;
+            height: 348px;
+            background-color: olivedrab;
         }
     }
 }
