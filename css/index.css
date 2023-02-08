@@ -95,4 +95,17 @@ header .HD1 .Register3 r {
 header .HD2 {
   height: 60%;
   background-color: pink;
+  display: flex;
+  justify-content: space-around;
+  padding: 22px 0px 0px 55px;
+}
+header .HD2 .logo {
+  width: 212px;
+  height: 54px;
+  background-color: red;
+}
+header .HD2 .menu {
+  width: 700px;
+  height: 55px;
+  background-color: aquamarine;
 }
