@@ -105,44 +105,48 @@ header {
             justify-content: space-around;
             padding: 22px 0px 0px 55px;
 
-            .logo{
+            .logo {
                 width: 212px;
                 height: 54px;
                 background-color: red;
             }
-            .menu{
+
+            .menu {
                 width: 700px;
                 height: 55px;
                 background-color: aquamarine;
                 display: flex;
 
-                .mu{
+                .mu {
                     padding: 15px 0 0 28px;
                     font-size: 18px;
                     color: #797979;
                 }
-                .mll{
+
+                .mll {
                     display: flex;
                     padding: 0 0 0 20px;
-                    .ml1{
+
+                    .ml1 {
                         width: 70px;
                         height: 55px;
                         background-color: orange;
                     }
-                    .ml{
+
+                    .ml {
                         width: 70px;
                         height: 55px;
                         background-color: red;
                     }
                 }
-                
+
             }
         }
     }
 
 }
 
-footer{
+footer {
     .FT {
         width: 1920px;
         height: 635px;
@@ -151,39 +155,42 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
-    
 
-        .gg{
+
+        .gg {
             width: 1320px;
             height: 120px;
             background-color: azure;
         }
 
-        .GG{
+        .GG {
             width: 1320px;
             height: 515px;
             background-color: aqua;
             display: flex;
             justify-content: space-between;
         }
-        .Flogo{
+
+        .Flogo {
             width: 300px;
             height: 348px;
             background-color: red;
             text-align: center;
         }
 
-        .WN{
+        .WN {
             width: 300px;
             height: 348px;
             background-color: olive;
         }
-        .LI{
+
+        .LI {
             width: 300px;
             height: 348px;
             background-color: orange;
         }
-        .GET{
+
+        .GET {
             width: 300px;
             height: 348px;
             background-color: olivedrab;
