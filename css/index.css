@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+header {
+  width: 1920px;
+  height: 159px;
+  margin: 0 auto;
+  background-color: red;
+}
+header .HD {
+  height: 100%;
+}
+header .HD1 {
+  height: 40%;
+  background-color: aqua;
+}
+header .HD2 {
+  height: 60%;
+  background-color: pink;
+}
