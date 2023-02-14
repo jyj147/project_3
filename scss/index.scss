@@ -4,7 +4,7 @@
 
 body{
     .DB{
-        width: 100%;
+        width: 1920px;
         height: 1020px;
         background-color: aqua;
         display: flex;
@@ -85,5 +85,10 @@ body{
             }
         }
     }
+}
+.up{
+    width: 1920px;
+    height: 459px;
+    background-color: green;
 }
 }
