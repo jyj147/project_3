@@ -11,12 +11,12 @@
     * {margin: 0;}
     
     ul,li,ol {list-style: none; margin: 0; padding: 0;}
-    #slidewrap {width: 1920px;; height: 735px; margin: 0 auto; position: relative; overflow: hidden;}
-    .slide {width: 3000px; }
-    .slide > li {width: 1920px; float: left;}
-    .slide > li > img {width: 1920px; height: 100%;}
+    #slidewrap {width: 100%; height: 735px; margin: 0 auto; position: relative; overflow: hidden;}
+    .slide {width: 300%; height: 100%;}
+    .slide > li {width: 33.33%; height: 100%; float: left;}
+    .slide > li > img {width: 100%; height: 100%;}
     .slidettt {width: 350px; height: 60px; line-height: 60px; position: absolute; top:71%; left: 50%; transform: translate(-50%, -50%); text-align: center; background-color: #171717; border-style:#171717 solid; color: #fff;}
-    .slidettt :hover{border-style: #fff solid; background-color: none;}
+    .slidettt:hover{border: #fff solid; background-color: transparent;}
     .slidet{width: 350px; height: 60px; line-height: 60px; position: absolute; top:22%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-size: px; color: #fff; font-weight: bold;}
     .slidett{width: 350px; height: 60px; line-height: 60px; position: absolute; top:37%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-size: 53px; color: #fff; font-weight: bold;}
     
@@ -72,7 +72,7 @@
 
   <div id="slidewrap">
     <ul class="slide">
-            <li><img src="https://www.oxfordlearning.com/wp-content/uploads/2019/06/AdobeStock_93076016-min.jpeg" alt="slide image"></li>
+            <li><img src="https://hips.hearstapps.com/hmg-prod/images/woman-reading-book-with-cat-1663086919.jpg" alt="slide image"></li>
             <li><img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F34%2F2022%2F06%2F13%2Flearn-something-new-everyday-0622.jpg&q=60" alt="slide image"></li>
             <li><img src="https://drsw10gc90t0z.cloudfront.net/AcuCustom/Sitename/DAM/420/Books-1920-X-1080.jpg"  alt="slide image"></li>
 
@@ -85,19 +85,22 @@
 
     
     </div>
+
     
     <script>
-    function slide(){
-    $('.slide').stop().animate({marginLeft:-1000}, 800, function(){
-    $('.slide li:first').appendTo('.slide');
-    $('.slide').css({marginLeft:0});
-    });
-    }
-    
-    setInterval(slide, 3000);
+      function slide() {
+        $('.slide').stop().animate({ marginLeft: "-100%" }, 800, function () {
+          $('.slide li:first').appendTo('.slide');
+          $('.slide').css({ marginLeft: 0 });
+        });
+      }
+
+        // setInterval(slide, 3000);
     </script>
 
-
+  <div class="DB">
+    <div class="DBt">Discover Your Next Book</div>
+  </div>
 
 
 

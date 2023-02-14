@@ -224,7 +224,15 @@ footer .LIttt {
   color: black;
 }
 
-style .slidettt :hover {
-  border-style: #fff solid;
-  background-color: none;
+body .DB {
+  width: 100%;
+  height: 1020px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+}
+body .DBB {
+  width: 1290px;
+  height: 91px;
+  background-color: red;
 }
