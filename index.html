@@ -187,7 +187,27 @@
       </div>
     </div>
   </footer>
+  
+  <script>
+     $.ajax({
+                method: "GET",
+                url: "https://dapi.kakao.com/v3/search/book?target=title",
+                data: { query: "베스트셀러" },
+                headers: { Authorization: "KakaoAK 7e55dc837ebf9856b2d84e9936a60473" }
+            })
+                .done(function (msg) {
 
+                    $(".sg").append("<img src='" + msg.documents[0].thumbnail + "'/>");
+                    $(".st").append("<h3>" + msg.documents[0].title + "</h3>");
+                    $(".st").append("<h6>" + msg.documents[0].authors[0] + "</h6>");
+
+                    var str = msg.documents[0].contents;
+                    var str2 = str.substring(0, 60);
+
+                    $(".st").append("<p>" + str2 + "</p>");
+
+                });
+  </script>
 </body>
 
 </html>
