@@ -259,11 +259,14 @@ body .sogae {
   display: flex;
   justify-content: space-between;
 }
-body .sg {
+body .sogae .sg {
   width: 190px;
   height: 290px;
   background-color: yellow;
   margin-top: 25px;
+}
+body .sogae .sg img {
+  width: 190px;
 }
 body .sogaet {
   width: 1290px;

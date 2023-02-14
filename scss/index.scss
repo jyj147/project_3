@@ -4,7 +4,7 @@
 
 body{
     .DB{
-        width: 1920px
+        width: 1920px;
         height: 1020px;
         background-color: aqua;
         display: flex;
@@ -41,19 +41,22 @@ body{
         background-color: green;
         display: flex;
         justify-content: space-between;
-    }
 
-    .sg{
-        width: 190px;
-        height: 290px;
-        background-color: yellow;
-        margin-top: 25px;
-
-        img{
-            width:190px;
-            height:100%;
+        .sg{
+            width: 190px;
+            height: 290px;
+            background-color: yellow;
+            margin-top: 25px;
+    
+            img{
+                width:190px;
+                         
+            }
         }
+
     }
+
+    
 
     .sogaet{
         width: 1290px;
@@ -92,7 +95,7 @@ body{
     }
 }
 .up{
-    width: 1290px;
+    width: 1920px;
     height: 459px;
     background-color: green;
 }
