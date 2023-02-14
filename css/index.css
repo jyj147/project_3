@@ -235,4 +235,20 @@ body .DBB {
   width: 1290px;
   height: 91px;
   background-color: red;
+  margin-top: 116px;
+}
+body .DBt {
+  font-size: 55px;
+  text-align: center;
+}
+body .DBb {
+  width: 1290px;
+  height: 25px;
+  background-color: pink;
+  display: flex;
+  justify-content: space-around;
+}
+body .Dbt {
+  font-size: 15px;
+  color: #272727;
 }

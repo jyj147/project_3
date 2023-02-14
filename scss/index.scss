@@ -15,5 +15,24 @@ body{
         width: 1290px;
         height: 91px;
         background-color: red;
+        margin-top: 116px;
     }
+
+    .DBt{
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .DBb{
+        width: 1290px;
+        height: 25px;
+        background-color: pink;
+        display: flex;
+        justify-content: space-around;
+    }
+    .Dbt{
+        font-size:15px;
+        color: #272727;
+    }
+
 }
