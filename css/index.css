@@ -161,14 +161,65 @@ footer .FT .WN {
   width: 300px;
   height: 348px;
   background-color: olive;
+  white-space: pre-line;
 }
-footer .FT .LI {
+footer .FT .WNt {
+  color: black;
+  font-weight: bold;
+}
+footer .FT .WNi {
+  background-color: beige;
+  width: 38%;
+  height: 38%;
+}
+footer .FT .WNii {
+  background-color: blue;
+  width: 38%;
+  height: 38%;
+}
+footer .LI {
   width: 300px;
   height: 348px;
   background-color: orange;
 }
-footer .FT .GET {
+footer .LI .LIt {
+  color: black;
+  margin: 17px;
+  font-weight: bold;
+}
+footer .LItt {
+  background-color: yellow;
+  width: 40%;
+  height: 73%;
+}
+footer .LIttt {
+  color: rgba(119, 153, 119, 0.6);
+  margin: 25px;
+}
+
+.GET {
   width: 300px;
   height: 348px;
   background-color: olivedrab;
+}
+.GET .GETt {
+  color: black;
+  font-weight: bold;
+  margin: 17px;
+}
+.GET .GETtt {
+  background-color: yellow;
+  width: 74%;
+  height: 73%;
+}
+.GET .GETttt {
+  color: #797979;
+  margin: 20px;
+}
+.GET .GETtttr {
+  color: red;
+  margin: 73px 0px 0px 18px;
+}
+.GET .GETtttr:hover {
+  color: black;
 }

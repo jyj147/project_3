@@ -6,7 +6,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SASS테스트</title>
+  <style>
 
+    * {margin: 0;}
+    
+    ul,li,ol {list-style: none; margin: 0; padding: 0;}
+    #slidewrap {width: 1920px;; height: 735px; margin: 0 auto; position: relative; overflow: hidden;}
+    .slide {width: 3000px; }
+    .slide > li {width: 1920px; float: left;}
+    .slide > li > img {width: 1920px; height: 100%;}
+    .slidettt {width: 350px; height: 60px; line-height: 60px; position: absolute; top:81%; left: 50%; transform: translate(-50%, -50%); text-align: center; background: color #171717; border-style: solid; color: #fff;}
+    .slidet{width: 350px; height: 60px; line-height: 60px; position: absolute; top:22%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-size: 31px; color: #fff; font-weight: bold;}
+    .slidett{width: 350px; height: 60px; line-height: 60px; position: absolute; top:37%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-size: 53px; color: #fff; font-weight: bold;}
+    
+    </style>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    
   <link rel="stylesheet" href="css/index.css">
 </head>
 
@@ -54,6 +69,32 @@
       </div>
   </header>
 
+  <div id="slidewrap">
+    <ul class="slide">
+            <li><img src="https://images.unsplash.com/photo-1553729784-e91953dec042?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29uJTIwcmVhZGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="slide image"></li>
+            <li><img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F34%2F2022%2F06%2F13%2Flearn-something-new-everyday-0622.jpg&q=60" alt="slide image"></li>
+            <li><img src="https://onlineteachersuk.com/files/2017/09/03-need-glasses-arm-workout.jpg"  alt="slide image"></li>
+
+            <div class="slidet">Choose Your Book!</div>
+            <div class="slidett">Meet Favorite <br> Authors</div>
+            <div class="slidettt">DISCOVER YOUR NEXT BOOK</div>
+            
+
+    </ul>
+
+    
+    </div>
+    
+    <script>
+    function slide(){
+    $('.slide').stop().animate({marginLeft:-1000}, 800, function(){
+    $('.slide li:first').appendTo('.slide');
+    $('.slide').css({marginLeft:0});
+    });
+    }
+    
+    setInterval(slide, 3000);
+    </script>
 
 
 
@@ -74,9 +115,35 @@
           <img src="img/book logo2.jpg" alt="">
         </div>
 
-        <div class="WN"></div>
-        <div class="LI"></div>
-        <div class="GET"></div>
+        <div class="WN">
+          <div class="WNt">WHAT'S NEWS</div>
+          <div class="WNi"></div>
+          <div class="WNii"></div>
+        </div>
+
+        <div class="LI">
+          <div class="LIt">LINKS</div>
+          <div class="LItt">
+            <div class="LIttt">Home</div>
+            <div class="LIttt">About us</div>
+            <div class="LIttt">Authors</div>
+            <div class="LIttt">Events</div>
+            <div class="LIttt">Store</div>
+            <div class="LIttt">Contacts</div>
+          </div>
+        </div>
+
+
+        <div class="GET">
+          <div class="GETt">GET IN TOUCH</div>
+          <div class="GETtt">
+            <div class="GETttt">Germany — <br>
+              785 15h Street, Office 478
+              Berlin, De 81566</div>
+            <div class="GETttt">info@email.com</div>
+            <div class="GETtttr">+1 840 841 25 69</div>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
