@@ -252,3 +252,51 @@ body .Dbt {
   font-size: 15px;
   color: #272727;
 }
+body .sogae {
+  width: 1290px;
+  height: 370px;
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+}
+body .sg {
+  width: 190px;
+  height: 290px;
+  background-color: yellow;
+  margin-top: 25px;
+}
+body .sogaet {
+  width: 1290px;
+  height: 232px;
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+}
+body .sogaet .st {
+  width: 190px;
+  height: 140px;
+  background-color: blueviolet;
+}
+body .Sogaeb {
+  width: 1290px;
+  height: 59px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+body .Sogaeb .sogaeb {
+  background-color: #121212;
+  width: 273px;
+  height: 59px;
+}
+body .Sogaeb .sogaeb .sogaebt {
+  color: #fff;
+  text-align: center;
+  width: 273px;
+  line-height: 54px;
+  border: #121212 solid;
+}
+body .Sogaeb .sogaeb .sogaebt:hover {
+  border: #fff solid;
+  background-color: transparent;
+}
