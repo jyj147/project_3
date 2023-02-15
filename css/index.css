@@ -457,3 +457,8 @@ body .CYB .cyb .BOXX .boxx:hover {
   color: #121212;
   font-size: 14px;
 }
+body .PR {
+  width: 100%;
+  height: 981px;
+  background-color: blue;
+}
