@@ -7,22 +7,93 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Booklovers</title>
   <style>
+    * {
+      margin: 0;
+    }
 
-    * {margin: 0;}
-    
-    ul,li,ol {list-style: none; margin: 0; padding: 0;}
-    #slidewrap {width: 100%; height: 735px; margin: 0 auto; position: relative; overflow: hidden;}
-    .slide {width: 300%; height: 100%;}
-    .slide > li {width: 33.33%; height: 100%; float: left;}
-    .slide > li > img {width: 100%; height: 100%;}
-    .slidettt {width: 350px; height: 60px; line-height: 60px; position: absolute; top:71%; left: 50%; transform: translate(-50%, -50%); text-align: center; background-color: #171717; border-style:#171717 solid; color: #fff;}
-    .slidettt:hover{border: #fff solid; background-color: transparent;}
-    .slidet{width: 350px; height: 60px; line-height: 60px; position: absolute; top:22%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-size: px; color: #fff; font-weight: bold;}
-    .slidett{width: 350px; height: 60px; line-height: 60px; position: absolute; top:37%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-size: 53px; color: #fff; font-weight: bold;}
+    ul,
+    li,
+    ol {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #slidewrap {
+      width: 100%;
+      height: 735px;
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .slide {
+      width: 300%;
+      height: 100%;
+    }
+
+    .slide>li {
+      width: 33.33%;
+      height: 100%;
+      float: left;
+    }
+
+    .slide>li>img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .slidettt {
+      width: 350px;
+      height: 60px;
+      line-height: 60px;
+      position: absolute;
+      top: 71%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      background-color: #171717;
+      border-style: #171717 solid;
+      color: #fff;
+    }
+
+    .slidettt:hover {
+      border: #fff solid;
+      background-color: transparent;
+    }
+
+    .slidet {
+      width: 350px;
+      height: 60px;
+      line-height: 60px;
+      position: absolute;
+      top: 22%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      font-size: px;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .slidett {
+      width: 350px;
+      height: 60px;
+      line-height: 60px;
+      position: absolute;
+      top: 37%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      font-size: 53px;
+      color: #fff;
+      font-weight: bold;
+    }
+
     /* .sogaebt:hover{border: #fff solid; background-color: transparent;} */
-    </style>
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
-    
+  </style>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+
   <link rel="stylesheet" href="css/index.css">
 </head>
 
@@ -72,53 +143,57 @@
 
   <div id="slidewrap">
     <ul class="slide">
-            <li><img src="https://hips.hearstapps.com/hmg-prod/images/woman-reading-book-with-cat-1663086919.jpg" alt="slide image"></li>
-            <li><img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F34%2F2022%2F06%2F13%2Flearn-something-new-everyday-0622.jpg&q=60" alt="slide image"></li>
-            <li><img src="https://drsw10gc90t0z.cloudfront.net/AcuCustom/Sitename/DAM/420/Books-1920-X-1080.jpg"  alt="slide image"></li>
+      <li><img src="https://hips.hearstapps.com/hmg-prod/images/woman-reading-book-with-cat-1663086919.jpg"
+          alt="slide image"></li>
+      <li><img
+          src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F34%2F2022%2F06%2F13%2Flearn-something-new-everyday-0622.jpg&q=60"
+          alt="slide image"></li>
+      <li><img src="https://drsw10gc90t0z.cloudfront.net/AcuCustom/Sitename/DAM/420/Books-1920-X-1080.jpg"
+          alt="slide image"></li>
 
-            <div class="slidet">Choose Your Book!</div>
-            <div class="slidett">Meet Favorite <br> Authors</div>
-            <div class="slidettt">DISCOVER YOUR NEXT BOOK</div>
-            
+      <div class="slidet">Choose Your Book!</div>
+      <div class="slidett">Meet Favorite <br> Authors</div>
+      <div class="slidettt">DISCOVER YOUR NEXT BOOK</div>
+
 
     </ul>
 
-    
-    </div>
 
-    
-    <script>
-      function slide() {
-        $('.slide').stop().animate({ marginLeft: "-100%" }, 800, function () {
-          $('.slide li:first').appendTo('.slide');
-          $('.slide').css({ marginLeft: 0 });
-        });
-      }
+  </div>
+
+
+  <script>
+    function slide() {
+      $('.slide').stop().animate({ marginLeft: "-100%" }, 800, function () {
+        $('.slide li:first').appendTo('.slide');
+        $('.slide').css({ marginLeft: 0 });
+      });
+    }
 
         // setInterval(slide, 3000);
-    </script>
+  </script>
 
   <div class="DB">
     <div class="db">
-    <div class="DBB">
-    <div class="DBt">Discover Your Next Book</div>
-  </div>
-    <div class="DBb">
-      <div class="Dbt">NEW RELEASES</div>
-      <div class="Dbt">AWARD WINNERS</div>
-      <div class="Dbt">BEST SELLERS</div> 
-      <div class="Dbt">COMING SOON</div>
-    </div>
-    
-    <div class="sogae">
-      <div class="sg"></div>
-      <div class="sg"></div>
-      <div class="sg"></div>
-      <div class="sg"></div>
-      <div class="sg"></div>
-    </div>
+      <div class="DBB">
+        <div class="DBt">Discover Your Next Book</div>
+      </div>
+      <div class="DBb">
+        <div class="Dbt">NEW RELEASES</div>
+        <div class="Dbt">AWARD WINNERS</div>
+        <div class="Dbt">BEST SELLERS</div>
+        <div class="Dbt">COMING SOON</div>
+      </div>
 
-    <div class="sogaet">
+      <div class="sogae">
+        <div class="sg"></div>
+        <div class="sg"></div>
+        <div class="sg"></div>
+        <div class="sg"></div>
+        <div class="sg"></div>
+      </div>
+
+      <div class="sogaet">
         <div class="st"></div>
         <div class="st"></div>
         <div class="st"></div>
@@ -127,53 +202,55 @@
       </div>
 
       <div class="Sogaeb">
-      <div class="sogaeb">
-        <p class="sogaebt">DISCOVER MORE BOOKS</p>
+        <div class="sogaeb">
+          <p class="sogaebt">DISCOVER MORE BOOKS</p>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+  <div class="up">
+    <div class="upp">
+      <div class="Up">
+        <p class="uppt">Stay in Touch with Our Updates</p>
+      </div>
+      <div class="UP">
+        <input type="text">
+        <div class="box">
+          <p>GET IN TOUCH</p>
+        </div>
+      </div>
+      <div class="UPn">
+        <input type="checkbox" name="" id="cc">
+        <p class="UPt">I agree to the Privacy Policy.</p>
       </div>
     </div>
-      
-
-   
   </div>
-  
-  </div>
- <div class="up">
-  <div class="upp">
-    <div class="Up">
-    <p class="uppt">Stay in Touch with Our Updates</p>
-  </div>
-  <div class="UP">
-    <input type="text">
-    <div class="box"> <p>GET IN TOUCH</p> </div>
-  </div>
-  <div class="UPn">
-    <input type="checkbox" name="" id="cc">
-    <p class="UPt">I agree to the Privacy Policy.</p>
-  </div>
-  </div>
- </div>
 
 
-<div class="CYB">
-  <div class="cyb"> 
-    <p> Choose Your Book!</p>
-     <div class="Cyb">
-      <div class="cYa"><a href="">
-        <img src="img/ww.jpg" alt="">
-      </a>
-      <span>Drama</span>
-      <p>이미지 설명 부분입니다.</p>
+  <div class="CYB">
+    <div class="cyb">
+      <p> Choose Your Book!</p>
+      <div class="Cyb">
+        <div class="cYa"><a href="">
+            <img src="img/ww.jpg" alt="">
+          </a>
+          <span>Drama</span>
+          <p>이미지 설명 부분입니다.</p>
+        </div>
+        <div class="cYb"><img src="img/my..jpg" alt=""></div>
+        <div class="cYc"><img src="img/nb.jpg" alt=""></div>
+        <div class="cYd"><img src="img/rp.jpg" alt=""></div>
+      </div>
+      <div class="BOXX">
+        <div class="boxx"> DISCOVER MORE CATEGORIES </div>
+      </div>
     </div>
-      <div class="cYb"><img src="img/my..jpg" alt=""></div>
-      <div class="cYc"><img src="img/nb.jpg" alt=""></div>
-      <div class="cYd"><img src="img/rp.jpg" alt=""></div>
-     </div>
-     <div class="BOXX">
-      <div class="boxx">  DISCOVER MORE CATEGORIES </div>
-     </div>
+
   </div>
- 
-</div>
 
 
 
@@ -220,7 +297,7 @@
       </div>
     </div>
   </footer>
-  
+
   <script>
     //  $.ajax({
     //             method: "GET",
@@ -243,34 +320,34 @@
 
     //             });
 
-                $.ajax({
-                method: "GET",
-                url: "https://dapi.kakao.com/v3/search/book?target=title",
-                data: { query: "베스트셀러" },
-                headers: { Authorization: "KakaoAK 7e55dc837ebf9856b2d84e9936a60473" }
-            })
-                .done(function (msg) {
-                    console.log(msg);
-                    // for문 (8개)
-                    var divs = document.getElementsByTagName('div');
+    $.ajax({
+      method: "GET",
+      url: "https://dapi.kakao.com/v3/search/book?target=title",
+      data: { query: "베스트셀러" },
+      headers: { Authorization: "KakaoAK 7e55dc837ebf9856b2d84e9936a60473" }
+    })
+      .done(function (msg) {
+        console.log(msg);
+        // for문 (8개)
+        var divs = document.getElementsByTagName('div');
 
-                    for (var i = 0; i < divs.length; i++) {
+        for (var i = 0; i < divs.length; i++) {
 
-                        $(".sg").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
-                        $(".st").eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
-                        $(".st").eq(i).append("<h6>" + msg.documents[i].authors + "</h6>");
-                       
+          $(".sg").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
+          $(".st").eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
+          $(".st").eq(i).append("<h6>" + msg.documents[i].authors + "</h6>");
 
 
-                        var str = msg.documents[i].contents;
-                        var str2 = str.substring(0, 60);
 
-                        $(".st").eq(i).append("<p>" + str2 + "</p>");
-                        // $(".st").eq(i).append("<button>" + "click" + "</button>");
+          var str = msg.documents[i].contents;
+          var str2 = str.substring(0, 60);
 
-                    }
-                    
-                });
+          $(".st").eq(i).append("<p>" + str2 + "</p>");
+          // $(".st").eq(i).append("<button>" + "click" + "</button>");
+
+        }
+
+      });
   </script>
 </body>
 

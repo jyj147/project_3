@@ -8,7 +8,8 @@ header {
 
     .HD {
         width: 1290px;
-        height: 100%; margin: 0 auto;
+        height: 100%;
+        margin: 0 auto;
 
         &1 {
             width: 100%;
@@ -86,7 +87,7 @@ header {
             display: flex;
             justify-content: space-between;
             padding: 10px;
-            
+
 
             .logo {
                 width: 212px;
@@ -105,7 +106,7 @@ header {
                     color: #797979;
                 }
 
-                .ml{
+                .ml {
                     margin-top: 4px;
                 }
 
@@ -158,75 +159,78 @@ footer {
             height: 348px;
             background-color: olive;
             white-space: pre-line;
-            }
-            .WNt{
-                color: black;
-                font-weight: bold;
-            }
-
-            .WNi{
-                background-color: beige;
-                width: 38%;
-                height: 38%;
-            }
-
-            .WNii{
-                background-color: blue;
-                width: 38%;
-                height: 38%;
-            }
         }
 
-        .LI {
-            width: 300px;
-            height: 348px;
-            background-color: orange;
-
-            .LIt{
-                color: black;
-                margin: 17px;
-                font-weight: bold;
-                }
-            }
-
-            .LItt{
-                background-color: yellow;
-                width: 40%;
-                height: 73%;
-            }
-
-            .LIttt{
-                color: #7979;
-                margin: 25px;
-            }
+        .WNt {
+            color: black;
+            font-weight: bold;
         }
 
-        .GET {
-            width: 300px;
-            height: 348px;
-            background-color: olivedrab;
-            .GETt{
-                color: black;
-                font-weight: bold;
-                margin: 17px;
-            }
-            .GETtt{
-                background-color: yellow;
-                width: 74%;
-                height: 73%;
-            }
-            .GETttt{
-                color: #797979;
-                margin: 20px;
-            }
-
-            .GETtttr{
-                color: red;
-                margin: 73px 0px 0px 18px;
-            }
-            .GETtttr:hover{
-                color: black;
-            }
+        .WNi {
+            background-color: beige;
+            width: 38%;
+            height: 38%;
         }
-    
-    
+
+        .WNii {
+            background-color: blue;
+            width: 38%;
+            height: 38%;
+        }
+    }
+
+    .LI {
+        width: 300px;
+        height: 348px;
+        background-color: orange;
+
+        .LIt {
+            color: black;
+            margin: 17px;
+            font-weight: bold;
+        }
+    }
+
+    .LItt {
+        background-color: yellow;
+        width: 40%;
+        height: 73%;
+    }
+
+    .LIttt {
+        color: #7979;
+        margin: 25px;
+    }
+}
+
+.GET {
+    width: 300px;
+    height: 348px;
+    background-color: olivedrab;
+
+    .GETt {
+        color: black;
+        font-weight: bold;
+        margin: 17px;
+    }
+
+    .GETtt {
+        background-color: yellow;
+        width: 74%;
+        height: 73%;
+    }
+
+    .GETttt {
+        color: #797979;
+        margin: 20px;
+    }
+
+    .GETtttr {
+        color: red;
+        margin: 73px 0px 0px 18px;
+    }
+
+    .GETtttr:hover {
+        color: black;
+    }
+}
