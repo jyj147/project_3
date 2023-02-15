@@ -17,7 +17,6 @@ header {
   width: 100%;
   height: 159px;
   margin: 0 auto;
-  background-color: red;
 }
 header .HD {
   width: 1290px;
@@ -27,12 +26,11 @@ header .HD {
 header .HD1 {
   width: 100%;
   height: 40%;
-  background-color: aqua;
+  background-color: #f9f9f9;
   display: flex;
   justify-content: space-between;
 }
 header .HD1 .Welcome {
-  background-color: red;
   text-align: center;
 }
 header .HD1 .Welcome p {
@@ -43,7 +41,6 @@ header .HD1 .Welcome p {
 header .HD1 .Register {
   width: 800px;
   height: 64px;
-  background-color: burlywood;
   display: flex;
   justify-content: space-between;
   padding: 17px 71px 0px 122px;
@@ -61,28 +58,17 @@ header .HD1 .Register2 {
   padding: 22px;
 }
 header .HD1 .Register2 .Fb {
-  width: 35px;
-  height: 35px;
-  background-color: blueviolet;
+  margin: 10px -6px 0px 12px;
 }
 header .HD1 .Register2 .Tw {
-  width: 35px;
-  height: 35px;
-  background-color: blueviolet;
+  margin: 10px -6px 0px 12px;
 }
 header .HD1 .Register2 .In {
-  width: 35px;
-  height: 35px;
-  background-color: blueviolet;
+  margin: 10px -6px 0px 12px;
 }
 header .HD1 .Register3 {
   display: flex;
   padding: 11px;
-}
-header .HD1 .Register3 .Ph {
-  width: 25px;
-  height: 22px;
-  background-color: orange;
 }
 header .HD1 .Register3 p {
   font-size: 12px;
@@ -93,7 +79,7 @@ header .HD1 .Register3 r {
 }
 header .HD2 {
   height: 60%;
-  background-color: pink;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -106,7 +92,6 @@ header .HD2 .logo {
 header .HD2 .menu {
   width: 700px;
   height: 55px;
-  background-color: aquamarine;
   display: flex;
 }
 header .HD2 .menu .mu {
@@ -114,19 +99,12 @@ header .HD2 .menu .mu {
   font-size: 18px;
   color: #797979;
 }
+header .HD2 .menu .ml {
+  margin-top: 4px;
+}
 header .HD2 .menu .mll {
   display: flex;
-  padding: 0 0 0 20px;
-}
-header .HD2 .menu .mll .ml1 {
-  width: 70px;
-  height: 55px;
-  background-color: orange;
-}
-header .HD2 .menu .mll .ml {
-  width: 70px;
-  height: 55px;
-  background-color: red;
+  padding: 13px 0px 0px 20px;
 }
 
 footer .FT {
@@ -226,14 +204,13 @@ footer .LIttt {
 body .DB {
   width: 100%;
   height: 1020px;
-  background-color: aqua;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-around;
 }
 body .DBB {
   width: 1290px;
   height: 91px;
-  background-color: red;
   margin-top: 116px;
 }
 body .DBt {
@@ -243,7 +220,6 @@ body .DBt {
 body .DBb {
   width: 1290px;
   height: 25px;
-  background-color: pink;
   display: flex;
   justify-content: space-around;
 }
@@ -254,7 +230,6 @@ body .Dbt {
 body .sogae {
   width: 1290px;
   height: 370px;
-  background-color: green;
   display: flex;
   justify-content: space-between;
 }
@@ -266,28 +241,31 @@ body .sogae .sg {
 }
 body .sogae .sg img {
   width: 190px;
+  height: 290px;
 }
 body .sogaet {
   width: 1290px;
   height: 232px;
-  background-color: beige;
   display: flex;
   justify-content: space-between;
 }
 body .sogaet .st {
   width: 190px;
   height: 140px;
-  background-color: blueviolet;
+  text-align: center;
+}
+body .sogaet .st p {
+  font-size: 12px;
 }
 body .Sogaeb {
   width: 1290px;
   height: 59px;
-  background-color: red;
   display: flex;
   justify-content: center;
 }
 body .Sogaeb .sogaeb {
   background-color: #121212;
+  border: #121212 solid;
   width: 273px;
   height: 59px;
 }
@@ -296,37 +274,34 @@ body .Sogaeb .sogaeb .sogaebt {
   text-align: center;
   width: 273px;
   line-height: 54px;
-  border: #121212 solid;
 }
 body .Sogaeb .sogaeb .sogaebt:hover {
-  border: #fff solid;
+  border: #121212 solid;
   background-color: transparent;
 }
 body .up {
   width: 100%;
   height: 459px;
-  background-color: green;
+  background-color: #De3241;
   display: flex;
   justify-content: center;
 }
 body .up .upp {
   width: 682px;
   height: 459px;
-  background-color: pink;
 }
 body .up .upp .Up {
-  width: 682px;
-  height: 62px;
-  background-color: red;
   display: flex;
   justify-content: center;
   font-size: 46px;
   margin-top: 82px;
 }
+body .up .upp .Up .uppt {
+  color: #fff;
+}
 body .up .UP {
   width: 682px;
   height: 62px;
-  background-color: blue;
   display: flex;
   font-size: 46px;
   margin-top: 90px;
@@ -356,7 +331,6 @@ body .up .UP .box p {
 body .up .UPn {
   width: 682px;
   height: 62px;
-  background-color: aqua;
   display: flex;
 }
 body .up .UPn #cc {

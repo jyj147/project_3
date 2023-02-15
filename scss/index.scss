@@ -6,7 +6,7 @@ body{
     .DB{
         width: 100%;
         height: 1020px;
-        background-color: aqua;
+        background-color: #ffffff;
         display: flex;
         justify-content: space-around;
     }
@@ -14,7 +14,6 @@ body{
     .DBB{
         width: 1290px;
         height: 91px;
-        background-color: red;
         margin-top: 116px;
     }
 
@@ -26,7 +25,6 @@ body{
     .DBb{
         width: 1290px;
         height: 25px;
-        background-color: pink;
         display: flex;
         justify-content: space-around;
     }
@@ -38,7 +36,6 @@ body{
     .sogae{
         width: 1290px;
         height: 370px;
-        background-color: green;
         display: flex;
         justify-content: space-between;
 
@@ -50,7 +47,7 @@ body{
     
             img{
                 width:190px;
-                         
+                height: 290px;         
             }
         }
 
@@ -61,23 +58,26 @@ body{
     .sogaet{
         width: 1290px;
         height: 232px;
-        background-color: beige;
         display: flex;
         justify-content: space-between;
 
         .st{
             width: 190px;
             height: 140px;
-            background-color: blueviolet;
+            text-align: center;
+
+            p{
+                font-size: 12px;
+            }
         }
     }
     .Sogaeb{ width: 1290px;
             height: 59px;
-            background-color: red;
             display: flex;
             justify-content: center;
     .sogaeb{
         background-color: #121212;
+        border: #121212 solid;
         width: 273px;
         height: 59px;
         .sogaebt{
@@ -85,10 +85,10 @@ body{
             text-align: center;
             width: 273px;
             line-height: 54px;
-            border: #121212 solid;
+           
 
             &:hover {
-                    border: #fff solid;
+                    border: #121212 solid;
                     background-color: transparent;
             }
         }
@@ -97,30 +97,28 @@ body{
 .up{
     width: 100%;
     height: 459px;
-    background-color: green;
+    background-color: #De3241;
     display: flex;
     justify-content: center;
 
     .upp{
         width: 682px;
         height: 459px;
-        background-color: pink;
 
         .Up{
-            width: 682px;
-            height: 62px;
-            background-color: red;
             display: flex;
             justify-content: center;
             font-size: 46px;
             margin-top: 82px;
 
+            .uppt{
+                color: #fff;
+            }
         }
     }
     .UP{
         width: 682px;
         height: 62px;
-        background-color: blue;
         display: flex;
         font-size: 46px;
         margin-top: 90px;
@@ -153,7 +151,6 @@ body{
     .UPn{
         width: 682px;
         height: 62px;
-        background-color: aqua;
         display: flex;
         #cc{
             width: 16px;

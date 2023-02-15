@@ -39,13 +39,13 @@
           </div>
 
           <div class="Register2">
-            <div class="Fb"></div>
-            <div class="Tw"></div>
-            <div class="In"></div>
+            <div class="Fb"><img src="img/f.jpg" alt=""></div>
+            <div class="Tw"><img src="img/t.jpg" alt=""></div>
+            <div class="In"><img src="img/i.jpg" alt=""></div>
           </div>
 
           <div class="Register3">
-            <div class="Ph"></div>
+            <div class="Ph"><img src="img/call.jpg" alt=""></div>
             <p>Free Call: <r> 123-456-789 </r>
             </p>
           </div>
@@ -63,8 +63,8 @@
           <div class="mu">STORE</div>
 
           <div class="mll">
-            <div class="ml1"></div>
-            <div class="ml"></div>
+            <div class="ml1"><img src="img/box.jpg" alt=""></div>
+            <div class="ml"><img src="img/ehe.jpg" alt=""></div>
           </div>
         </div>
       </div>
@@ -148,7 +148,7 @@
   </div>
   <div class="UPn">
     <input type="checkbox" name="" id="cc">
-    <p class="UPt">I agree to the <em> Privacy Policy.</em></p>
+    <p class="UPt">I agree to the Privacy Policy.</p>
   </div>
   </div>
  </div>
@@ -252,15 +252,16 @@
                     for (var i = 0; i < divs.length; i++) {
 
                         $(".sg").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
-                        $(".st").eq(i).append("<h3>" + msg.documents[i].title + "</h3>");
+                        $(".st").eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
                         $(".st").eq(i).append("<h6>" + msg.documents[i].authors + "</h6>");
+                       
 
 
                         var str = msg.documents[i].contents;
                         var str2 = str.substring(0, 60);
 
                         $(".st").eq(i).append("<p>" + str2 + "</p>");
-                        $(".st").eq(i).append("<button>" + "click" + "</button>");
+                        // $(".st").eq(i).append("<button>" + "click" + "</button>");
 
                     }
                     
