@@ -374,6 +374,9 @@ body .CYB .cyb .Cyb .cYa {
   position: relative;
   margin-top: 115px;
 }
+body .CYB .cyb .Cyb .cYa p {
+  font-size: 12px;
+}
 body .CYB .cyb .Cyb .cYa > a {
   display: inline-block;
   width: 100%;
