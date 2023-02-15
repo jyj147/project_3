@@ -14,27 +14,26 @@ a {
 }
 
 header {
-  width: 1920px;
+  width: 100%;
   height: 159px;
   margin: 0 auto;
   background-color: red;
 }
 header .HD {
+  width: 1290px;
   height: 100%;
+  margin: 0 auto;
 }
 header .HD1 {
   width: 100%;
   height: 40%;
   background-color: aqua;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 header .HD1 .Welcome {
   background-color: red;
-  width: 461px;
-  height: 64px;
   text-align: center;
-  padding: 0 15px;
 }
 header .HD1 .Welcome p {
   color: #797979;
@@ -46,7 +45,7 @@ header .HD1 .Register {
   height: 64px;
   background-color: burlywood;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 17px 71px 0px 122px;
 }
 header .HD1 .Register1 {
@@ -96,8 +95,8 @@ header .HD2 {
   height: 60%;
   background-color: pink;
   display: flex;
-  justify-content: space-around;
-  padding: 22px 0px 0px 55px;
+  justify-content: space-between;
+  padding: 10px;
 }
 header .HD2 .logo {
   width: 212px;
@@ -131,7 +130,7 @@ header .HD2 .menu .mll .ml {
 }
 
 footer .FT {
-  width: 1920px;
+  width: 100%;
   height: 635px;
   margin: 0 auto;
   background-color: burlywood;
@@ -140,12 +139,12 @@ footer .FT {
   align-items: center;
 }
 footer .FT .gg {
-  width: 1320px;
+  width: 1290px;
   height: 120px;
   background-color: azure;
 }
 footer .FT .GG {
-  width: 1320px;
+  width: 1290px;
   height: 515px;
   background-color: aqua;
   display: flex;
@@ -225,7 +224,7 @@ footer .LIttt {
 }
 
 body .DB {
-  width: 1920px;
+  width: 100%;
   height: 1020px;
   background-color: aqua;
   display: flex;
@@ -304,7 +303,7 @@ body .Sogaeb .sogaeb .sogaebt:hover {
   background-color: transparent;
 }
 body .up {
-  width: 1920px;
+  width: 100%;
   height: 459px;
   background-color: green;
   display: flex;
@@ -372,7 +371,7 @@ body .up .UPn .UPt {
 }
 body .CYB {
   background-color: greenyellow;
-  width: 1920px;
+  width: 100%;
   height: 879px;
   display: flex;
   justify-content: center;
@@ -380,11 +379,48 @@ body .CYB {
 body .CYB .cyb {
   background-color: aqua;
   width: 1209px;
-  height: 91px;
+  height: 700px;
   margin-top: 90px;
 }
 body .CYB .cyb p {
   text-align: center;
   font-size: 55px;
   font-weight: bold;
+}
+body .CYB .cyb .Cyb {
+  width: 100%;
+  height: 540px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+}
+body .CYB .cyb .Cyb .cYb {
+  width: 283px;
+  height: 309px;
+  background-color: bisque;
+  margin-top: 115px;
+}
+body .CYB .cyb .BOXX {
+  width: 1209px;
+  height: 91px;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+}
+body .CYB .cyb .BOXX .boxx {
+  width: 34%;
+  height: 60%;
+  background-color: #121212;
+  border: #121212 solid 2px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+  line-height: 43px;
+}
+body .CYB .cyb .BOXX .boxx:hover {
+  border: #121212 solid 2px;
+  background-color: #fff;
+  color: #121212;
+  font-size: 14px;
 }
