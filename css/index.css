@@ -477,7 +477,7 @@ body .PR .prr .pick {
 body .PR .prr .pick .pk {
   width: 190px;
   height: 290px;
-  margin-top: 25px;
+  margin-top: 70px;
 }
 body .PR .prr .pick .pk img {
   width: 190px;
@@ -494,6 +494,7 @@ body .PR .pickt {
   height: 232px;
   display: flex;
   justify-content: space-between;
+  margin-top: 52px;
 }
 body .PR .pickt .pt {
   width: 190px;
