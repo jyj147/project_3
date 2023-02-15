@@ -482,9 +482,26 @@ body .PR .prr .pick .pk {
   background-color: yellow;
   margin-top: 25px;
 }
+body .PR .prr .pick .pk img {
+  width: 190px;
+  height: 290px;
+}
 body .PR .prr p {
   font-size: 55px;
   color: #121212;
   margin-top: 145px;
   text-align: center;
+}
+body .PR .pickt {
+  width: 1209px;
+  height: 232px;
+  display: flex;
+  justify-content: space-between;
+  background-color: purple;
+}
+body .PR .pickt .pt {
+  width: 190px;
+  height: 140px;
+  text-align: center;
+  background-color: pink;
 }

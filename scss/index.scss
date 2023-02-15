@@ -338,6 +338,11 @@ body {
                     height: 290px;
                     background-color: yellow;
                     margin-top: 25px;
+
+                    img{
+                        width: 190px;
+                        height: 290px;
+                    }
                 }
             }
             p{
@@ -348,6 +353,19 @@ body {
             }
            
         }
-        
+        .pickt{
+            width: 1209px;
+            height: 232px;
+            display: flex;
+            justify-content: space-between;
+            background-color: purple;
+
+            .pt{
+                width: 190px;
+                height: 140px;
+                text-align: center;
+                background-color: pink;
+            }
+        }
     }
 }
