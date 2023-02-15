@@ -77,9 +77,13 @@ body{
             justify-content: center;
     .sogaeb{
         background-color: #121212;
-        border: #121212 solid;
+        border: solid #121212;
         width: 273px;
-        height: 59px;
+        height: 59px; 
+        &:hover {
+                    border: #121212 solid;
+                    background-color: transparent;
+            }
         .sogaebt{
             color: #fff;
             text-align: center;
@@ -87,10 +91,7 @@ body{
             line-height: 54px;
            
 
-            &:hover {
-                    border: #121212 solid;
-                    background-color: transparent;
-            }
+           
         }
     }
 }
@@ -135,8 +136,10 @@ body{
             border: solid #121212;
 
             &:hover{
-                border: solid #fff;
+                border:#121212 solid 2px;
                 background-color: transparent;
+                color: #121212;
+                font-size: 17px;
             }
 
             p{
@@ -190,11 +193,48 @@ body{
             display: flex;
             justify-content: space-between;
 
+            .cYa{
+                width: 283px;
+                height: 309px;
+                background-color: bisque;
+                margin-top: 115px;
+
+                img{
+                    width: 283px;
+                    height: 309px;
+                }
+            }
             .cYb{
                 width: 283px;
                 height: 309px;
                 background-color: bisque;
                 margin-top: 115px;
+
+                img{
+                    width: 283px;
+                    height: 309px;
+                }
+            }
+            .cYc{
+                width: 283px;
+                height: 309px;
+                background-color: bisque;
+                margin-top: 115px;
+
+                img{
+                    width: 283px;
+                    height: 309px;
+                }
+            }
+            .cYd{
+                width: 283px;
+                height: 309px;
+                background-color: bisque;
+                margin-top: 115px;
+                img{
+                    width: 283px;
+                    height: 309px;
+                }
             }
         }
         .BOXX{
