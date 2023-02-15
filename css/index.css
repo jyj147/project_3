@@ -119,7 +119,7 @@ footer .FT {
 footer .FT .gg {
   width: 1290px;
   height: 120px;
-  background-color: azure;
+  background-color: pink;
 }
 footer .FT .GG {
   width: 1290px;
@@ -346,14 +346,13 @@ body .up .UPn .UPt {
   margin: 17px;
 }
 body .CYB {
-  background-color: greenyellow;
+  background: color #f9f9f9;
   width: 100%;
   height: 879px;
   display: flex;
   justify-content: center;
 }
 body .CYB .cyb {
-  background-color: aqua;
   width: 1209px;
   height: 700px;
   margin-top: 90px;
@@ -366,14 +365,12 @@ body .CYB .cyb p {
 body .CYB .cyb .Cyb {
   width: 100%;
   height: 540px;
-  background-color: blueviolet;
   display: flex;
   justify-content: space-between;
 }
 body .CYB .cyb .Cyb .cYa {
   width: 283px;
   height: 309px;
-  background-color: bisque;
   margin-top: 115px;
 }
 body .CYB .cyb .Cyb .cYa img {
@@ -383,7 +380,6 @@ body .CYB .cyb .Cyb .cYa img {
 body .CYB .cyb .Cyb .cYb {
   width: 283px;
   height: 309px;
-  background-color: bisque;
   margin-top: 115px;
 }
 body .CYB .cyb .Cyb .cYb img {
@@ -393,7 +389,6 @@ body .CYB .cyb .Cyb .cYb img {
 body .CYB .cyb .Cyb .cYc {
   width: 283px;
   height: 309px;
-  background-color: bisque;
   margin-top: 115px;
 }
 body .CYB .cyb .Cyb .cYc img {
@@ -403,7 +398,6 @@ body .CYB .cyb .Cyb .cYc img {
 body .CYB .cyb .Cyb .cYd {
   width: 283px;
   height: 309px;
-  background-color: bisque;
   margin-top: 115px;
 }
 body .CYB .cyb .Cyb .cYd img {
@@ -413,7 +407,6 @@ body .CYB .cyb .Cyb .cYd img {
 body .CYB .cyb .BOXX {
   width: 1209px;
   height: 91px;
-  background-color: brown;
   display: flex;
   justify-content: center;
 }
@@ -426,7 +419,7 @@ body .CYB .cyb .BOXX .boxx {
   font-weight: bold;
   text-align: center;
   font-size: 14px;
-  line-height: 43px;
+  line-height: 51px;
 }
 body .CYB .cyb .BOXX .boxx:hover {
   border: #121212 solid 2px;
