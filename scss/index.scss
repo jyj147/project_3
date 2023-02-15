@@ -202,67 +202,67 @@ body {
                 font-weight: bold;
             }
 
-            .Cyb {
-                width: 100%;
-                height: 540px;
+            // .Cyb {
+            //     width: 100%;
+            //     height: 540px;
 
-                display: flex;
-                justify-content: space-between;
+            //     display: flex;
+            //     justify-content: space-between;
 
-                .cYa {
-                    width: 283px;
-                    height: 309px;
-                    position: relative;
+            //     .cYa {
+            //         width: 283px;
+            //         height: 309px;
+            //         position: relative;
 
-                    margin-top: 115px;
+            //         margin-top: 115px;
 
-                    p {
-                        font-size: 12px;
-                    }
+            //         p {
+            //             font-size: 12px;
+            //         }
 
-                    >a {
-                        display: inline-block;
-                        width: 100%;
-                        height: 100%;
+            //         >a {
+            //             display: inline-block;
+            //             width: 100%;
+            //             height: 100%;
 
-                        &::before {
-                            transition: 1s;
-                        }
+            //             &::before {
+            //                 transition: 1s;
+            //             }
 
-                        &:hover:before {
-                            content: '';
-                            position: absolute;
-                            width: 100%;
-                            height: 100%;
-                            top: 0;
-                            left: 0;
-                            background-color: #333;
-                            opacity: 0.5;
-                            z-index: 5;
+            //             &:hover:before {
+            //                 content: '';
+            //                 position: absolute;
+            //                 width: 100%;
+            //                 height: 100%;
+            //                 top: 0;
+            //                 left: 0;
+            //                 background-color: #333;
+            //                 opacity: 0.5;
+            //                 z-index: 5;
 
-                        }
-
-
-                        img {
-                            width: 283px;
-                            height: 309px;
+            //             }
 
 
-                        }
+            //             img {
+            //                 width: 283px;
+            //                 height: 309px;
+
+
+            //             }
 
 
 
-                    }
+            //         }
 
-                    >span {
-                        font-size: 50px;
-                        position: absolute;
-                        color: #eee;
-                        bottom: 0;
-                        left: 0;
+            //         >span {
+            //             font-size: 50px;
+            //             position: absolute;
+            //             color: #eee;
+            //             bottom: 0;
+            //             left: 0;
 
-                    }
-                }
+            //         }
+            //     }
 
                 .cYb {
                     width: 283px;
