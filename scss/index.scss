@@ -345,13 +345,13 @@ body {
                     }
                 }
             }
-            p{
+            
+            .prp{
                 font-size: 55px;
                 color: #121212;
-                margin-top: 145px;
+                margin-top: 170px;
                 text-align: center;
             }
-           
         }
         .pickt{
             width: 1209px;
@@ -365,6 +365,11 @@ body {
                 height: 140px;
                 text-align: center;
                 background-color: pink;
+
+                p{
+                    font-size: 12px;
+                    text-align: center;
+                }
             }
         }
     }
