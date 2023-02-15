@@ -349,6 +349,28 @@ body {
                 margin-top: 170px;
                 text-align: center;
             }
+
+            .PRB{
+                width: 1290px;
+                height: 114px;
+                margin-top: -5%;
+                display: flex;
+                justify-content: center;
+                .prb{
+                    width: 273px;
+                    height: 59px;
+                    background-color: #121212;
+                    border: #121212 solid 2px;
+                    &:hover{
+                        background-color: #fff;
+                    }
+                    p{
+                        color: #fff;
+                        line-height: 52px;
+                        text-align: center;
+                    }
+                }
+            }
         }
         .pickt{
             width: 1290px;
@@ -368,5 +390,6 @@ body {
                 }
             }
         }
+        
     }
 }

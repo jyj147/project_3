@@ -489,6 +489,27 @@ body .PR .prr .prp {
   margin-top: 170px;
   text-align: center;
 }
+body .PR .prr .PRB {
+  width: 1290px;
+  height: 114px;
+  margin-top: -5%;
+  display: flex;
+  justify-content: center;
+}
+body .PR .prr .PRB .prb {
+  width: 273px;
+  height: 59px;
+  background-color: #121212;
+  border: #121212 solid 2px;
+}
+body .PR .prr .PRB .prb:hover {
+  background-color: #fff;
+}
+body .PR .prr .PRB .prb p {
+  color: #fff;
+  line-height: 52px;
+  text-align: center;
+}
 body .PR .pickt {
   width: 1290px;
   height: 232px;
