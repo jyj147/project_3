@@ -98,5 +98,57 @@ body{
     width: 1920px;
     height: 459px;
     background-color: green;
+    display: flex;
+    justify-content: center;
+
+    .upp{
+        width: 682px;
+        height: 459px;
+        background-color: pink;
+
+        .Up{
+            width: 682px;
+            height: 62px;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            font-size: 46px;
+            margin-top: 82px;
+
+        }
+    }
+    .UP{
+        width: 682px;
+        height: 62px;
+        background-color: blue;
+        display: flex;
+        font-size: 46px;
+        margin-top: 90px;
+        justify-content: space-between;
+
+        input {
+            width: 399px;
+            height: 62px;
+        }
+        .box{
+            width: 270px;
+            height: 62px;
+            background-color: #121212;
+            border: solid #121212;
+
+            &:hover{
+                border: solid #fff;
+                background-color: transparent;
+            }
+
+            p{
+                margin-top: 17px;
+                font-weight: bold;
+                color: #fff;
+                text-align: center;
+                font-size: 17px;
+            }
+        }
+    }
 }
 }
