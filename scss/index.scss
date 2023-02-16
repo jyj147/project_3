@@ -158,6 +158,10 @@ body {
                     border: #121212 solid 2px;
                     background-color: transparent;
                     font-size: 17px;
+                    p{
+                        color: #121212;
+                        font-weight: bold;
+                    }
                 }
             }
         }
@@ -486,7 +490,8 @@ body {
         background-color: #De3241;
 
         .Dif {
-            width: 1290px;
+            // width: 1290px;
+            width: 1145px;
             height: 604px;
             background-color: purple;
             position: relative;
@@ -562,17 +567,34 @@ body {
                     height: 59px;
                     line-height: 54px;
                     margin-top: 71px;
+                    &:hover{
+                        background-color: transparent;
+                        border:  #121212 solid 2px;
+                        p{
+                            color: #121212;
+                            font-weight: bold;
+                        }
+                    }
                     p{
                         color: #eee;
                         font-size: 14px;
                         text-align: center;
+                        font-weight: bold;
                     }
                 }
 
             }
-
-        }
-    }
+            .Dem{
+                width: 574px;
+                height: 604px;
+                background-color: pink;
+                position: relative;
+                transform: translate(-50%, -50%);
+                left: 1615px;
+                top: 300px;
+                }
+        }  
+    } 
 }
 
 .EMPTY {
