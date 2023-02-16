@@ -306,7 +306,6 @@
       <div class="Hdt"></div>
       <div class="Hdtt"></div>
       <div class="Hdttt"></div>
-      <div class="Hdtttt" style=" width: 355px; height: 31px; background-color: blue;"></div>
       <div class="HDBTN"> <p>SHOP ONLINE</p> </div>
     </div>
       
@@ -385,7 +384,6 @@
           var str2 = str.substring(0, 60);
 
           $(".st").eq(i).append("<p>" + str2 + "</p>");
-          // $(".st").eq(i).append("<button>" + "click" + "</button>");
 
         }
 
@@ -416,7 +414,6 @@
           var str2 = str.substring(0, 60);
 
           $(".pt").eq(i).append("<p>" + str2 + "</p>");
-          // $(".st").eq(i).append("<button>" + "click" + "</button>");
 
         }
 
@@ -448,9 +445,7 @@
         var str = msg.documents[i].contents;
         var str2 = str.substring(0, 60);
 
-        $(".Hdttt").eq(i).append("<p>" + str2 + "</p>");
-        $(".Hdtttt").eq(i).append("<p>" + str2 + "</p>");
-        // $(".st").eq(i).append("<button>" + "click" + "</button>");
+         $(".Hdttt").eq(i).append("<p>" + str + "</p>");
 
       }
 

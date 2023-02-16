@@ -639,24 +639,34 @@ body .dif .Dif .hdt {
 }
 body .dif .Dif .hdt .Hdt {
   width: 271px;
-  height: 158px;
+  height: 66px;
   background-color: #De3241;
+  font-size: 40px;
 }
 body .dif .Dif .hdt .Hdtt {
   width: 355px;
   height: 28px;
   background-color: blue;
+  margin-top: 64px;
+}
+body .dif .Dif .hdt .Hdtt h6 {
+  color: #De3241;
+  font-size: 26px;
 }
 body .dif .Dif .hdt .Hdttt {
   width: 355px;
   height: 155px;
   background-color: #De3241;
+  font-size: 18px;
+  margin-top: 60px;
 }
 body .dif .Dif .hdt .HDBTN {
   background-color: #121212;
   border: #121212 solid 2px;
   width: 191px;
   height: 59px;
+  line-height: 54px;
+  margin-top: 71px;
 }
 body .dif .Dif .hdt .HDBTN p {
   color: #eee;
