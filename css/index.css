@@ -687,13 +687,13 @@ body .dif .Dif .hdt .HDBTN p {
   font-weight: bold;
 }
 body .dif .Dif .Dem {
-  width: 574px;
+  width: 581px;
   height: 604px;
   background-color: pink;
-  position: relative;
+  position: absolute;
   transform: translate(-50%, -50%);
-  left: 1615px;
-  top: 300px;
+  top: 301px;
+  left: 1612px;
 }
 
 .EMPTY {
