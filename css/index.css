@@ -279,6 +279,10 @@ body .Sogaeb .sogaeb .sogaebt {
   width: 273px;
   line-height: 54px;
 }
+body .Sogaeb .sogaeb .sogaebt:hover {
+  color: #121212;
+  font-weight: bold;
+}
 body .up {
   width: 100%;
   height: 459px;
@@ -317,17 +321,16 @@ body .up .UP .box {
   background-color: #121212;
   border: solid #121212;
 }
-body .up .UP .box:hover {
-  border: #121212 solid 2px;
-  background-color: transparent;
-  color: #121212;
-  font-size: 17px;
-}
 body .up .UP .box p {
   margin-top: 17px;
   font-weight: bold;
   color: #fff;
   text-align: center;
+  font-size: 17px;
+}
+body .up .UP .box:hover {
+  border: #121212 solid 2px;
+  background-color: transparent;
   font-size: 17px;
 }
 body .up .UPn {
@@ -503,12 +506,17 @@ body .PR .prr .PRB .prb {
   border: #121212 solid 2px;
 }
 body .PR .prr .PRB .prb:hover {
-  background-color: #fff;
+  background-color: transparent;
+  border: #121212 solid 2px;
 }
 body .PR .prr .PRB .prb p {
   color: #fff;
   line-height: 52px;
   text-align: center;
+}
+body .PR .prr .PRB .prb p:hover {
+  color: #121212;
+  font-weight: bold;
 }
 body .PR .pickt {
   width: 1290px;
@@ -573,4 +581,8 @@ body .picture .Picture .BTN p {
   text-align: center;
   font-weight: bold;
   line-height: 63px;
+}
+body .picture .Picture .BTN:hover {
+  background-color: transparent;
+  border: #eee solid 2px;
 }
