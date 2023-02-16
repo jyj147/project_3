@@ -558,3 +558,17 @@ body .picture .Picture .PI p {
   font-size: 20px;
   color: #eee;
 }
+body .picture .Picture .BTN {
+  width: 24%;
+  height: 64px;
+  background-color: #121212;
+  border: #121212 solid 2px;
+  margin: 48px 0px 0px 36%;
+}
+body .picture .Picture .BTN p {
+  color: #eee;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 58px;
+}

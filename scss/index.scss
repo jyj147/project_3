@@ -423,6 +423,20 @@ body {
                     color: #eee; 
                 }
             }
+            .BTN{
+                width: 24%;
+                height: 64px;
+                background-color: #121212;
+                border: #121212 solid 2px;
+                margin: 48px 0px 0px 36%;
+                p{
+                    color: #eee;
+                    font-size: 15px;
+                    text-align: center;
+                    font-weight: bold;
+                    line-height: 58px;
+                }
+            }
         }
     }
 }
