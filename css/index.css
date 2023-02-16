@@ -633,6 +633,21 @@ body .dif .Dif .hdt {
   left: 917px;
   transform: translate(-50%, -50%);
 }
+body .dif .Dif .hdt .Hdt {
+  width: 271px;
+  height: 158px;
+  background-color: #De3241;
+}
+body .dif .Dif .hdt .Hdtt {
+  width: 355px;
+  height: 28px;
+  background-color: blue;
+}
+body .dif .Dif .hdt .Hdttt {
+  width: 355px;
+  height: 155px;
+  background-color: #De3241;
+}
 
 .EMPTY {
   width: 100%;
