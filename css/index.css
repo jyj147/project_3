@@ -597,9 +597,10 @@ body .dif {
   background-color: #De3241;
 }
 body .dif .Dif {
-  width: 771px;
+  width: 801px;
   height: 604px;
   background-color: purple;
+  position: relative;
 }
 body .dif .Dif .hd {
   background-color: pink;
@@ -617,8 +618,12 @@ body .dif .Dif .hdp {
 }
 body .dif .Dif .hdt {
   width: 385px;
-  height: 501px;
+  height: 500px;
   background-color: aqua;
+  position: absolute;
+  top: -2px;
+  left: 0;
+  transform: translate(108%, 11%);
 }
 body .EMPTY {
   width: 100%;
