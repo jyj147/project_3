@@ -586,3 +586,42 @@ body .picture .Picture .BTN:hover {
   background-color: transparent;
   border: #eee solid 2px;
 }
+body .empty {
+  width: 100%;
+  height: 120px;
+  background-color: #333;
+}
+body .dif {
+  width: 100%;
+  height: 604px;
+  background-color: #De3241;
+}
+body .dif .Dif {
+  width: 771px;
+  height: 604px;
+  background-color: purple;
+}
+body .dif .Dif .hd {
+  background-color: pink;
+  width: 771px;
+  height: 53px;
+}
+body .dif .Dif .hd p {
+  font-size: 19px;
+  color: #121212;
+}
+body .dif .Dif .hdp {
+  width: 327px;
+  height: 500px;
+  background-color: yellow;
+}
+body .dif .Dif .hdt {
+  width: 385px;
+  height: 501px;
+  background-color: aqua;
+}
+body .EMPTY {
+  width: 100%;
+  height: 120px;
+  background-color: #333;
+}
