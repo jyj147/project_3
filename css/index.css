@@ -533,7 +533,7 @@ body .picture {
 }
 body .picture img {
   width: 100%;
-  height: 100%;
+  height: 700px;
 }
 body .picture .Picture {
   width: 50%;
@@ -542,7 +542,7 @@ body .picture .Picture {
 body .picture .Picture .pi {
   width: 100%;
   height: 100px;
-  margin-top: 154px;
+  margin-top: -56%;
 }
 body .picture .Picture .pi p {
   text-align: center;
@@ -560,16 +560,14 @@ body .picture .Picture .PI p {
   color: #eee;
 }
 body .picture .Picture .BTN {
-  width: 24%;
-  height: 64px;
+  width: 50%;
+  height: 700px;
   background-color: #121212;
   border: #121212 solid 2px;
-  margin: 48px 0px 0px 36%;
 }
 body .picture .Picture .BTN p {
-  color: #eee;
+  color: #979797;
   font-size: 15px;
   text-align: center;
   font-weight: bold;
-  line-height: 58px;
 }

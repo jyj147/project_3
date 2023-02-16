@@ -397,17 +397,19 @@ body {
         width: 100%;
         height: 700px;
         background-color: aqua;
-            img{
-                width: 100%;
-                height: 100%;
-            }
+
+        img{
+            width: 100%;
+        height: 700px;
+        }
+            
         .Picture{
             width: 50%;
             height: 700px;
             .pi{
                 width: 100%;
                 height: 100px;
-                margin-top: 154px;
+                margin-top: -56%;
                 p{
                     text-align: center;
                     font-size: 55px;
@@ -423,21 +425,22 @@ body {
                     font-size: 20px;
                     color: #eee; 
                 }
+            
             }
             .BTN{
-                width: 24%;
-                height: 64px;
+                width: 50%;
+                height: 700px;
                 background-color: #121212;
                 border: #121212 solid 2px;
-                margin: 48px 0px 0px 36%;
                 p{
-                    color: #eee;
-                    font-size: 15px;
+                    color: #979797;
+                    font-size:15px;
                     text-align: center;
                     font-weight: bold;
-                    line-height: 58px;
                 }
             }
         }
     }
 }
+
+
