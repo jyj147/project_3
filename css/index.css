@@ -593,21 +593,21 @@ body .picture .Picture .BTN:hover {
 body .empty {
   width: 100%;
   height: 120px;
-  background-color: #333;
+  background-color: #ffffff;
 }
 body .dif {
   width: 100%;
   height: 604px;
-  background-color: #De3241;
+  background-color: #ffffff;
 }
 body .dif .Dif {
   width: 1145px;
   height: 604px;
-  background-color: purple;
+  background-color: #ffffff;
   position: relative;
 }
 body .dif .Dif .hd {
-  background-color: pink;
+  background-color: #ffffff;
   width: 771px;
   height: 53px;
   position: absolute;
@@ -622,7 +622,7 @@ body .dif .Dif .hd p {
 body .dif .Dif .hdp {
   width: 327px;
   height: 500px;
-  background-color: yellow;
+  background-color: #ffffff;
   position: absolute;
   top: 349px;
   left: 467px;
@@ -635,7 +635,7 @@ body .dif .Dif .hdp img {
 body .dif .Dif .hdt {
   width: 385px;
   height: 500px;
-  background-color: aqua;
+  background-color: #ffffff;
   position: absolute;
   top: 349px;
   left: 917px;
@@ -644,13 +644,13 @@ body .dif .Dif .hdt {
 body .dif .Dif .hdt .Hdt {
   width: 271px;
   height: 66px;
-  background-color: #De3241;
+  background-color: #ffffff;
   font-size: 40px;
 }
 body .dif .Dif .hdt .Hdtt {
   width: 355px;
   height: 28px;
-  background-color: blue;
+  background-color: #ffffff;
   margin-top: 64px;
 }
 body .dif .Dif .hdt .Hdtt h6 {
@@ -660,7 +660,7 @@ body .dif .Dif .hdt .Hdtt h6 {
 body .dif .Dif .hdt .Hdttt {
   width: 355px;
   height: 155px;
-  background-color: #De3241;
+  background-color: #ffffff;
   font-size: 18px;
   margin-top: 60px;
 }
@@ -699,5 +699,5 @@ body .dif .Dif .Dem {
 .EMPTY {
   width: 100%;
   height: 120px;
-  background-color: #333;
+  background-color: #ffffff;
 }
