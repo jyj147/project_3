@@ -126,7 +126,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 122px;
+        margin-top: -18px;
 
         .gg {
             width: 1290px;
@@ -183,7 +183,6 @@ footer {
             margin: 28px 0px 0px -43px;
 
             .WNit {
-                background-color: green;
                 width: 114px;
                 height: 132px;
                 font-size: 13px;
@@ -193,8 +192,12 @@ footer {
                 flex-direction: column-reverse;
                 .WP{
                     width: 94px;
-                    height: 22px;
-                    background-color: yellow;
+                    height: 24px;
+                    h6{
+                        font-size: 15px;
+                        font-weight: bold;
+                        color: #De3241;
+                    }
                 }
             }
         }

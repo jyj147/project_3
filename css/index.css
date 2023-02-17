@@ -115,7 +115,7 @@ footer .FT {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 122px;
+  margin-top: -18px;
 }
 footer .FT .gg {
   width: 1290px;
@@ -164,7 +164,6 @@ footer .FT .WNI {
   margin: 28px 0px 0px -43px;
 }
 footer .FT .WNI .WNit {
-  background-color: green;
   width: 114px;
   height: 132px;
   font-size: 13px;
@@ -175,8 +174,12 @@ footer .FT .WNI .WNit {
 }
 footer .FT .WNI .WNit .WP {
   width: 94px;
-  height: 22px;
-  background-color: yellow;
+  height: 24px;
+}
+footer .FT .WNI .WNit .WP h6 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #De3241;
 }
 footer .LI {
   width: 300px;
@@ -379,6 +382,7 @@ body .CYB {
   height: 879px;
   display: flex;
   justify-content: center;
+  background-color: #f0efed;
 }
 body .CYB .cyb {
   width: 1209px;
