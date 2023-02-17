@@ -309,6 +309,7 @@ body .up {
   background-color: #De3241;
   display: flex;
   justify-content: center;
+  margin-top: 198px;
 }
 body .up .upp {
   width: 682px;
@@ -581,7 +582,7 @@ body .picture .Picture .pi {
 }
 body .picture .Picture .pi p {
   font-size: 55px;
-  color: #eee;
+  color: #f5f5f4;
 }
 body .picture .Picture .PI {
   width: 100%;
@@ -590,7 +591,7 @@ body .picture .Picture .PI {
 }
 body .picture .Picture .PI p {
   font-size: 20px;
-  color: #eee;
+  color: #f5f5f4;
 }
 body .picture .Picture .BTN {
   width: 16%;
@@ -600,7 +601,7 @@ body .picture .Picture .BTN {
   margin-top: 25px;
 }
 body .picture .Picture .BTN p {
-  color: #eee;
+  color: #f5f5f4;
   font-size: 15px;
   text-align: center;
   font-weight: bold;
