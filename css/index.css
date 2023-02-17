@@ -115,6 +115,7 @@ footer .FT {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 122px;
 }
 footer .FT .gg {
   width: 1290px;
@@ -555,7 +556,7 @@ body .picture {
 }
 body .picture img {
   width: 100%;
-  height: 700px;
+  height: 770px;
 }
 body .picture .Picture {
   left: 50%;
@@ -604,6 +605,7 @@ body .empty {
   width: 100%;
   height: 120px;
   background-color: #ffffff;
+  margin-top: 159px;
 }
 body .dif {
   width: 100%;
