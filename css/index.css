@@ -99,7 +99,7 @@ header .HD2 .menu .mu {
   font-size: 18px;
   color: #797979;
 }
-header .HD2 .menu .mu:hover {
+header .HD2 .menu .mu a:hover {
   color: #De3241;
 }
 header .HD2 .menu .ml {

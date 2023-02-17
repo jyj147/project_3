@@ -101,9 +101,10 @@ header {
                     padding: 15px 0 0 28px;
                     font-size: 18px;
                     color: #797979;
-                    &:hover{
+
+                    a:hover {
                         color: #De3241;
-                    }    
+                    }
                 }
 
                 .ml {
@@ -194,10 +195,12 @@ footer {
                 flex-wrap: wrap;
                 justify-content: space-evenly;
                 flex-direction: column-reverse;
-                .WP{
+
+                .WP {
                     width: 94px;
                     height: 24px;
-                    h6{
+
+                    h6 {
                         font-size: 15px;
                         font-weight: bold;
                         color: #De3241;
@@ -226,7 +229,8 @@ footer {
     .LIttt {
         color: #797979;
         margin: 25px;
-        &:hover{
+
+        &:hover {
             color: #De3241;
         }
     }
