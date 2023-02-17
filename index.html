@@ -497,7 +497,7 @@
       });
   </script>
 
-  <!-- <script>
+  <script>
   $.ajax({
     method: "GET",
     url: "https://dapi.kakao.com/v3/search/book?target=title",
@@ -512,7 +512,7 @@
       for (var i = 0; i < divs.length; i++) {
 
         $(".WNi").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
-        $(".BK").eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
+        $(".WNit").eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
 
         var str = msg.documents[i].contents;
         var str2 = str.substring(0, 60);
@@ -520,7 +520,7 @@
       }
 
     });
-</script> -->
+</script>
 </body>
 
 </html>

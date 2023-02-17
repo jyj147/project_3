@@ -111,7 +111,7 @@ footer .FT {
   width: 100%;
   height: 635px;
   margin: 0 auto;
-  background-color: burlywood;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -119,25 +119,21 @@ footer .FT {
 footer .FT .gg {
   width: 1290px;
   height: 120px;
-  background-color: pink;
 }
 footer .FT .GG {
   width: 1290px;
   height: 515px;
-  background-color: aqua;
   display: flex;
   justify-content: space-between;
 }
 footer .FT .Flogo {
   width: 300px;
   height: 348px;
-  background-color: red;
   text-align: center;
 }
 footer .FT .WN {
   width: 300px;
   height: 348px;
-  background-color: olive;
   white-space: pre-line;
   display: flex;
   flex-direction: column;
@@ -146,32 +142,35 @@ footer .FT .WN {
 footer .FT .WNt {
   color: black;
   font-weight: bold;
+  margin-top: 14px;
 }
 footer .FT .wni {
   width: 38%;
   height: 92%;
-  background-color: red;
+  margin: 27px 0px 0px -151px;
 }
 footer .FT .wni .WNi {
-  background-color: beige;
+  width: 114px;
+  height: 132px;
+}
+footer .FT .wni .WNi img {
   width: 114px;
   height: 132px;
 }
 footer .FT .WNI {
   width: 38%;
   height: 92%;
-  background-color: red;
-  margin-top: 22px;
+  margin: 28px 0px 0px -43px;
 }
 footer .FT .WNI .WNit {
   background-color: green;
   width: 114px;
   height: 132px;
+  font-size: 13px;
 }
 footer .LI {
   width: 300px;
   height: 348px;
-  background-color: orange;
 }
 footer .LI .LIt {
   color: black;
@@ -179,7 +178,6 @@ footer .LI .LIt {
   font-weight: bold;
 }
 footer .LItt {
-  background-color: yellow;
   width: 40%;
   height: 73%;
 }
@@ -191,7 +189,6 @@ footer .LIttt {
 .GET {
   width: 300px;
   height: 348px;
-  background-color: olivedrab;
 }
 .GET .GETt {
   color: black;
@@ -199,7 +196,6 @@ footer .LIttt {
   margin: 17px;
 }
 .GET .GETtt {
-  background-color: yellow;
   width: 74%;
   height: 73%;
 }
