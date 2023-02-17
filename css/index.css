@@ -139,20 +139,34 @@ footer .FT .WN {
   height: 348px;
   background-color: olive;
   white-space: pre-line;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 footer .FT .WNt {
   color: black;
   font-weight: bold;
 }
-footer .FT .WNi {
-  background-color: beige;
+footer .FT .wni {
   width: 38%;
-  height: 38%;
+  height: 92%;
+  background-color: red;
 }
-footer .FT .WNii {
-  background-color: blue;
+footer .FT .wni .WNi {
+  background-color: beige;
+  width: 114px;
+  height: 132px;
+}
+footer .FT .WNI {
   width: 38%;
-  height: 38%;
+  height: 92%;
+  background-color: red;
+  margin-top: 22px;
+}
+footer .FT .WNI .WNit {
+  background-color: green;
+  width: 114px;
+  height: 132px;
 }
 footer .LI {
   width: 300px;
