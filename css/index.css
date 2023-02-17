@@ -202,7 +202,7 @@ footer .LIttt {
   color: #797979;
   margin: 25px;
 }
-footer .LIttt:hover {
+footer .LIttt a:hover {
   color: #De3241;
 }
 
