@@ -99,6 +99,9 @@ header .HD2 .menu .mu {
   font-size: 18px;
   color: #797979;
 }
+header .HD2 .menu .mu:hover {
+  color: #De3241;
+}
 header .HD2 .menu .ml {
   margin-top: 4px;
 }
@@ -199,6 +202,9 @@ footer .LIttt {
   color: #797979;
   margin: 25px;
 }
+footer .LIttt:hover {
+  color: #De3241;
+}
 
 .GET {
   width: 300px;
@@ -250,6 +256,9 @@ body .DBb {
 body .Dbt {
   font-size: 15px;
   color: #272727;
+}
+body .Dbt:hover {
+  color: #De3241;
 }
 body .sogae {
   width: 1290px;
