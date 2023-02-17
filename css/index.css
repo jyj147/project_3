@@ -695,6 +695,11 @@ body .dif .Dif .Dem {
   top: 301px;
   left: 1612px;
 }
+body .dif .Dif .Dem .Demt {
+  width: 209px;
+  height: 53px;
+  background-color: #De3241;
+}
 
 .EMPTY {
   width: 100%;
