@@ -168,6 +168,15 @@ footer .FT .WNI .WNit {
   width: 114px;
   height: 132px;
   font-size: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: column-reverse;
+}
+footer .FT .WNI .WNit .WP {
+  width: 94px;
+  height: 22px;
+  background-color: yellow;
 }
 footer .LI {
   width: 300px;
