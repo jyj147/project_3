@@ -715,25 +715,26 @@ body .dif .Dif .Dem .BO .BOOKK img {
   height: 150px;
 }
 body .dif .Dif .Dem .BO .bk {
-  width: 288px;
+  width: 228px;
   height: 465px;
-  margin-top: -134%;
+  margin-top: -144%;
   margin-left: 154px;
 }
 body .dif .Dif .Dem .BO .bk .BK h4 {
   width: 100%;
   height: 100%;
-  margin: 0px 0px 139px 0px;
+  margin: 0px 0px 120px 0px;
 }
 body .dif .Dif .Dem .BO .BKtt {
   width: 40px;
   height: 395px;
-  margin: -474px 0px 0px 2px;
+  margin: -458px 0px 0px 2px;
 }
 body .dif .Dif .Dem .BO .BKtt .BKt h6 {
   width: 100%;
   height: 100%;
-  margin: 0px 0px 165px -1px;
+  margin: 0px 0px 168px -1px;
+  color: #De3241;
 }
 
 .EMPTY {
