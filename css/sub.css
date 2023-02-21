@@ -322,18 +322,24 @@ body .SUB .Sub .sUb .sUbt .OP {
   justify-content: space-between;
 }
 body .SUB .Sub .sUb .sUbt .OP .on {
-  width: 78px;
+  width: 83px;
   height: 138px;
   background-color: #DE3241;
+}
+body .SUB .Sub .sUb .sUbt .OP .on:hover {
+  border: solid 2px black;
 }
 body .SUB .Sub .sUb .sUbt .OP .on p {
   font-size: 13px;
   margin-top: 10px;
 }
 body .SUB .Sub .sUb .sUbt .OP .pa {
-  width: 78px;
+  width: 83px;
   height: 138px;
   background-color: aqua;
+}
+body .SUB .Sub .sUb .sUbt .OP .pa:hover {
+  border: solid 2px black;
 }
 body .SUB .Sub .sUb .sUbt .OP .pa p {
   font-size: 13px;

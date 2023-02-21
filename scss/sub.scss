@@ -108,18 +108,29 @@ body{
                     display: flex;
                     justify-content: space-between;
                     .on{
-                        width: 78px;
+                        width: 83px;
                         height: 138px;
                         background-color: #DE3241;
+                        &:hover{
+                            border: solid 2px black;
+                        }
+                        // img{
+                        //     &:hover{
+                        //         border: solid 2px black;
+                        //     }
+                        // }
                         p{
                             font-size: 13px;
                             margin-top: 10px;
                         }
                     }
                     .pa{
-                        width: 78px;
+                        width: 83px;
                         height: 138px;
                         background-color: aqua;
+                        &:hover{
+                            border: solid 2px black;
+                        }
                         p{
                             font-size: 13px;
                             margin-top: 10px;
