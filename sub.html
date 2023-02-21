@@ -106,9 +106,9 @@
         $(".J").eq(i).append("<h3>" + msg.documents[i].status + "</h3>");
 
         var str = msg.documents[i].contents;
-        var str2 = str.substring(0, 60);
+        var str2 = str.substring(0, 300);
 
-        $(".ST").eq(i).append("<p>" + str + "</p>");
+        $(".ST").eq(i).append("<p>" + str2 + "...</p>");
        
       }
     });
