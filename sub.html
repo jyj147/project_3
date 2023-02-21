@@ -67,7 +67,7 @@
   
     <div class="Sub">
       <div class="sUb">
-        <div class="sUbp"></div>
+        <div class="sUbp"><img src="img/chimae.jpg" alt=""></div>
         <div class="sUbt"></div>
       </div>
     </div>
@@ -133,29 +133,29 @@
 
   <script>
 
-    $.ajax({
-      method: "GET",
-      url: "https://dapi.kakao.com/v3/search/book?target=title",
-      data: { query: "치매의 모든 것" },
-      headers: { Authorization: "KakaoAK 7e55dc837ebf9856b2d84e9936a60473" }
-    })
-      .done(function (msg) {
-        console.log(msg);
-        // for문 (8개)
-        var divs = document.getElementsByTagName('div');
+    // $.ajax({
+    //   method: "GET",
+    //   url: "https://dapi.kakao.com/v3/search/book?target=title",
+    //   data: { query: "치매의 모든 것" },
+    //   headers: { Authorization: "KakaoAK 7e55dc837ebf9856b2d84e9936a60473" }
+    // })
+    //   .done(function (msg) {
+    //     console.log(msg);
+    //     // for문 (8개)
+    //     var divs = document.getElementsByTagName('div');
 
-        for (var i = 0; i < divs.length; i++) {
+    //     for (var i = 0; i < divs.length; i++) {
 
-          $(".sUbp").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
-          // $(".st").eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
-          // $(".st").eq(i).append("<h6>" + msg.documents[i].authors + "</h6>");
+    //       $(".sUbp").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
+    //       $(".st").eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
+    //       $(".st").eq(i).append("<h6>" + msg.documents[i].authors + "</h6>");
 
-          // var str = msg.documents[i].contents;
-          // var str2 = str.substring(0, 60);
+    //       var str = msg.documents[i].contents;
+    //       var str2 = str.substring(0, 60);
 
-          // $(".st").eq(i).append("<p>" + str2 + "</p>");
-        }
-      });
+    //       $(".st").eq(i).append("<p>" + str2 + "</p>");
+    //     }
+    //   });
   </script>
 
 </body>
