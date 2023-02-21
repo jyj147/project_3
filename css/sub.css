@@ -282,7 +282,6 @@ body .SUB .Sub .sUb .sUbp img {
 body .SUB .Sub .sUb .sUbt {
   width: 849px;
   height: 672px;
-  background-color: beige;
 }
 body .SUB .Sub .sUb .sUbt .T {
   margin: 0px 0px 18px 48px;
@@ -314,7 +313,6 @@ body .SUB .Sub .sUb .sUbt .ST {
   color: #797979;
 }
 body .SUB .Sub .sUb .sUbt .OP {
-  background-color: plum;
   width: 172px;
   height: 138px;
   margin: -15px 0px 0px 50px;
@@ -324,7 +322,6 @@ body .SUB .Sub .sUb .sUbt .OP {
 body .SUB .Sub .sUb .sUbt .OP .on {
   width: 83px;
   height: 138px;
-  background-color: #DE3241;
 }
 body .SUB .Sub .sUb .sUbt .OP .on:hover {
   border: solid 2px black;
@@ -332,11 +329,11 @@ body .SUB .Sub .sUb .sUbt .OP .on:hover {
 body .SUB .Sub .sUb .sUbt .OP .on p {
   font-size: 13px;
   margin-top: 10px;
+  text-align: center;
 }
 body .SUB .Sub .sUb .sUbt .OP .pa {
   width: 83px;
   height: 138px;
-  background-color: aqua;
 }
 body .SUB .Sub .sUb .sUbt .OP .pa:hover {
   border: solid 2px black;
@@ -344,14 +341,15 @@ body .SUB .Sub .sUb .sUbt .OP .pa:hover {
 body .SUB .Sub .sUb .sUbt .OP .pa p {
   font-size: 13px;
   margin-top: 10px;
+  text-align: center;
 }
 body .SUB .Sub .sUb .sUbt .N {
   width: 270px;
   height: 60px;
-  background-color: rebeccapurple;
   margin: 0px 0px 0px 50px;
   display: flex;
   justify-content: space-between;
+  margin-top: 62px;
 }
 body .SUB .Sub .sUb .sUbt .N input {
   width: 105px;

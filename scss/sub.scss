@@ -55,7 +55,7 @@ body{
                     height: 672px;
                     // display: flex;
                     // flex-direction: column;
-                    background-color: beige;
+                    // background-color: beige;
 
                     .T{
                         // margin-top: auto;
@@ -101,7 +101,7 @@ body{
                     color: #797979;
                    }
                    .OP{
-                    background-color: plum;
+                    // background-color: plum;
                     width: 172px;
                     height: 138px;
                     margin: -15px 0px 0px 50px;
@@ -110,7 +110,7 @@ body{
                     .on{
                         width: 83px;
                         height: 138px;
-                        background-color: #DE3241;
+                        // background-color: #DE3241;
                         &:hover{
                             border: solid 2px black;
                         }
@@ -122,28 +122,31 @@ body{
                         p{
                             font-size: 13px;
                             margin-top: 10px;
+                            text-align: center;
                         }
                     }
                     .pa{
                         width: 83px;
                         height: 138px;
-                        background-color: aqua;
+                        // background-color: aqua;
                         &:hover{
                             border: solid 2px black;
                         }
                         p{
                             font-size: 13px;
                             margin-top: 10px;
+                            text-align: center;
                         }
                     }
                    }
                    .N{
                     width: 270px;
                     height: 60px;
-                    background-color: rebeccapurple;
+                    // background-color: rebeccapurple;
                     margin: 0px 0px 0px 50px;
                     display: flex;
                     justify-content: space-between;
+                    margin-top: 62px;
 
                     input{
                         width: 105px;
