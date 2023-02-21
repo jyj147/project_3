@@ -58,6 +58,33 @@ body{
                     width: 849px;
                     height: 672px;
                     background-color: blue;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    align-content: center;
+                    justify-content: space-around;
+
+                    .T{
+                        background-color: pink;
+                    }
+
+                   .Au{
+                    background-color: yellow;  
+                    height: 50px;
+                   }
+
+                   .P{
+                    height: 50px;
+                    background-color: green;
+                   }
+                   .SP{
+                    height: 50px;
+                    background-color: purple;
+                   }
+                   .J{
+                    height: 50px;
+                    background-color: aquamarine;
+                   }
                 }
             }
         }

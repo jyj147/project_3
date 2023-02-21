@@ -285,4 +285,28 @@ body .SUB .Sub .sUb .sUbt {
   width: 849px;
   height: 672px;
   background-color: blue;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+body .SUB .Sub .sUb .sUbt .T {
+  background-color: pink;
+}
+body .SUB .Sub .sUb .sUbt .Au {
+  background-color: yellow;
+  height: 50px;
+}
+body .SUB .Sub .sUb .sUbt .P {
+  height: 50px;
+  background-color: green;
+}
+body .SUB .Sub .sUb .sUbt .SP {
+  height: 50px;
+  background-color: purple;
+}
+body .SUB .Sub .sUb .sUbt .J {
+  height: 50px;
+  background-color: aquamarine;
 }
