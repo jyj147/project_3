@@ -345,3 +345,13 @@ body .SUB .Sub .sUb .sUbt .OP .pa p {
   font-size: 13px;
   margin-top: 10px;
 }
+body .SUB .Sub .sUb .sUbt .N {
+  width: 270px;
+  height: 60px;
+  background-color: rebeccapurple;
+  margin: 0px 0px 0px 50px;
+}
+body .SUB .Sub .sUb .sUbt .N select {
+  width: 105px;
+  height: 60px;
+}
