@@ -264,9 +264,25 @@ body .SUB .Sub {
 }
 body .SUB .Sub .sUb {
   width: 1290px;
-  height: 2877px;
+  height: 678px;
   background-color: pink;
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+body .SUB .Sub .sUb .sUbp {
+  width: 440px;
+  height: 672px;
+  background-color: beige;
+}
+body .SUB .Sub .sUb .sUbp img {
+  width: 100%;
+  height: 100%;
+}
+body .SUB .Sub .sUb .sUbt {
+  width: 849px;
+  height: 672px;
+  background-color: blue;
 }
