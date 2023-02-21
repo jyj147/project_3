@@ -233,10 +233,6 @@ footer .LIttt a:hover {
 
 body .SUB {
   width: 100%;
-  height: 1020px;
-  background-color: aquamarine;
-  display: flex;
-  justify-content: space-around;
 }
 body .SUB .subshopt {
   width: 1903px;
@@ -258,4 +254,19 @@ body .SUB .subshopt .subs {
 }
 body .SUB .subshopt .subs p {
   font-size: 15px;
+}
+body .SUB .Sub {
+  width: 1903px;
+  height: 3113px;
+  background-color: #F5F5F4;
+  padding: 127px 0px 133px;
+  position: relative;
+}
+body .SUB .Sub .sUb {
+  width: 1290px;
+  height: 2877px;
+  background-color: pink;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
