@@ -282,36 +282,40 @@ body .SUB .Sub .sUb .sUbp img {
 body .SUB .Sub .sUb .sUbt {
   width: 849px;
   height: 672px;
-  display: flex;
-  flex-direction: column;
+  background-color: beige;
 }
 body .SUB .Sub .sUb .sUbt .T {
-  margin-top: auto;
-  margin-left: 56px;
+  margin: 0px 0px 18px 48px;
+  font-size: 12px;
 }
 body .SUB .Sub .sUb .sUbt .Au {
-  margin-top: auto;
-  margin-left: 56px;
   color: #797979;
+  margin: 0px 0px 18px 52px;
+  font-size: 13px;
 }
 body .SUB .Sub .sUb .sUbt .P {
-  margin-top: auto;
-  margin-left: 56px;
   color: #DE3241;
+  margin: 0px 0px 18px 52px;
+  font-size: 13px;
 }
 body .SUB .Sub .sUb .sUbt .SP {
-  margin-top: auto;
-  margin-left: 56px;
   color: #DE3241;
+  margin: 0px 0px 18px 52px;
+  font-size: 13px;
 }
 body .SUB .Sub .sUb .sUbt .J {
-  margin-top: auto;
-  margin-left: 56px;
+  margin: 0px 0px 18px 52px;
+  font-size: 13px;
 }
 body .SUB .Sub .sUb .sUbt .ST {
-  margin-top: auto;
   height: 200px;
-  font-size: 20px;
-  margin-left: 56px;
+  font-size: 18px;
+  margin: 0px 0px 18px 52px;
   color: #797979;
+}
+body .SUB .Sub .sUb .sUbt .OP {
+  background-color: plum;
+  width: 300px;
+  height: 138px;
+  margin: -15px 0px 0px 50px;
 }
