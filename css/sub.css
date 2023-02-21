@@ -235,7 +235,7 @@ body .SUB {
   width: 100%;
 }
 body .SUB .subshopt {
-  width: 1903px;
+  width: 100%;
   height: 174px;
   background-color: #171717;
   display: flex;
@@ -256,7 +256,7 @@ body .SUB .subshopt .subs p {
   font-size: 15px;
 }
 body .SUB .Sub {
-  width: 1903px;
+  width: 100%;
   height: 3113px;
   background-color: #F5F5F4;
   padding: 127px 0px 133px;
@@ -265,7 +265,6 @@ body .SUB .Sub {
 body .SUB .Sub .sUb {
   width: 1290px;
   height: 678px;
-  background-color: pink;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -275,7 +274,6 @@ body .SUB .Sub .sUb {
 body .SUB .Sub .sUb .sUbp {
   width: 440px;
   height: 672px;
-  background-color: beige;
 }
 body .SUB .Sub .sUb .sUbp img {
   width: 100%;
@@ -284,29 +282,36 @@ body .SUB .Sub .sUb .sUbp img {
 body .SUB .Sub .sUb .sUbt {
   width: 849px;
   height: 672px;
-  background-color: blue;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-around;
 }
 body .SUB .Sub .sUb .sUbt .T {
-  background-color: pink;
+  margin-top: auto;
+  margin-left: 56px;
 }
 body .SUB .Sub .sUb .sUbt .Au {
-  background-color: yellow;
-  height: 50px;
+  margin-top: auto;
+  margin-left: 56px;
+  color: #797979;
 }
 body .SUB .Sub .sUb .sUbt .P {
-  height: 50px;
-  background-color: green;
+  margin-top: auto;
+  margin-left: 56px;
+  color: #DE3241;
 }
 body .SUB .Sub .sUb .sUbt .SP {
-  height: 50px;
-  background-color: purple;
+  margin-top: auto;
+  margin-left: 56px;
+  color: #DE3241;
 }
 body .SUB .Sub .sUb .sUbt .J {
-  height: 50px;
-  background-color: aquamarine;
+  margin-top: auto;
+  margin-left: 56px;
+}
+body .SUB .Sub .sUb .sUbt .ST {
+  margin-top: auto;
+  height: 200px;
+  font-size: 20px;
+  margin-left: 56px;
+  color: #797979;
 }

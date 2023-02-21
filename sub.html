@@ -74,6 +74,7 @@
           <div class="P"></div>
           <div class="SP"></div>
           <div class="J"></div>
+          <div class="ST"></div>
         </div>
       </div>
     </div>
@@ -104,10 +105,10 @@
         $(".SP").eq(i).append("<h3>할인 가격 :" + msg.documents[i].sale_price + "</h3>");
         $(".J").eq(i).append("<h3>" + msg.documents[i].status + "</h3>");
 
-        // var str = msg.documents[i].contents;
-        // var str2 = str.substring(0, 60);
+        var str = msg.documents[i].contents;
+        var str2 = str.substring(0, 60);
 
-        // $(".sUbt").eq(i).append("<p>줄거리 :" + str + "</p>");
+        $(".ST").eq(i).append("<p>" + str + "</p>");
        
       }
     });
