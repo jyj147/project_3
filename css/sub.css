@@ -350,8 +350,18 @@ body .SUB .Sub .sUb .sUbt .N {
   height: 60px;
   background-color: rebeccapurple;
   margin: 0px 0px 0px 50px;
+  display: flex;
+  justify-content: space-between;
 }
-body .SUB .Sub .sUb .sUbt .N select {
+body .SUB .Sub .sUb .sUbt .N input {
   width: 105px;
   height: 60px;
+  text-align: center;
+  font-size: 17px;
+}
+body .SUB .Sub .sUb .sUbt .N .B button {
+  width: 157px;
+  height: 60px;
+  text-align: center;
+  font-size: 17px;
 }
