@@ -315,7 +315,19 @@ body .SUB .Sub .sUb .sUbt .ST {
 }
 body .SUB .Sub .sUb .sUbt .OP {
   background-color: plum;
-  width: 300px;
+  width: 172px;
   height: 138px;
   margin: -15px 0px 0px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+body .SUB .Sub .sUb .sUbt .OP .on {
+  width: 78px;
+  height: 138px;
+  background-color: #DE3241;
+}
+body .SUB .Sub .sUb .sUbt .OP .pa {
+  width: 78px;
+  height: 78px;
+  background-color: aqua;
 }
