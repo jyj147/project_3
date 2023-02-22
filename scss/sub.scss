@@ -371,5 +371,19 @@ body {
                 background-color: blue;
             }
         }
+        
     }
+    .PPKt{
+            width: 1290px;
+            height: 150px;
+            display: flex;
+            justify-content: space-between;
+            background-color: yellow;
+            .PPKT{
+                width: 190px;
+    height: 140px;
+    text-align: center;
+    background-color: orangered;
+            }
+        }
 }

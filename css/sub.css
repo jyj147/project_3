@@ -518,3 +518,16 @@ body .SUB .Sub .sUb .sUbt .N .B button {
   margin-top: 70px;
   background-color: blue;
 }
+.PR .PPKt {
+  width: 1290px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  background-color: yellow;
+}
+.PR .PPKt .PPKT {
+  width: 190px;
+  height: 140px;
+  text-align: center;
+  background-color: orangered;
+}
