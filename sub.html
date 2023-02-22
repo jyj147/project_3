@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,9 @@
 
   <link rel="stylesheet" href="css/sub.css">
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
-    
+
 </head>
-  
+
 <body>
   <header>
     <div class="HD">
@@ -61,10 +62,11 @@
   <div class="SUB">
 
     <div class="subshopt">
-       <div class="subs">SHOP 
-      <p>인문/사회/역사 > 인문 , > 건강/다이어트 > 건강</p></div>
+      <div class="subs">SHOP
+        <p>인문/사회/역사 > 인문 , > 건강/다이어트 > 건강</p>
+      </div>
     </div>
-  
+
     <div class="Sub">
       <div class="sUb">
         <div class="sUbp"><img src="img/chimae.jpg" alt=""></div>
@@ -77,125 +79,144 @@
           <div class="ST"></div>
 
           <div class="OP">
-            <div class="on"><img src="img/on.jpg" alt=""> <p>Online Book</p></div>
-            <div class="pa"><img src="img/pa.jpg" alt=""> <p>Paper Book</p></div>
+            <div class="on"><img src="img/on.jpg" alt="">
+              <p>Online Book</p>
+            </div>
+            <div class="pa"><img src="img/pa.jpg" alt="">
+              <p>Paper Book</p>
+            </div>
           </div>
 
           <div class="N">
             <!-- <input type="text"> -->
             <input type="text" name="수량" value="1">
-            <div class="B"><button> <p>BUY NOW</p> </button></div>
+            <div class="B"><button>
+                <p>BUY NOW</p>
+              </button></div>
           </div>
         </div>
 
-       
+
       </div>
-  
- <div class="rv">
-  <div class="rvb"> <p>RIVEWS</p> </div>
- </div>
 
- <div class="rivew">
-  <div class="rv1">
-    <p>Average rating</p><p>
-    <span>4.00</span>
-  </div>
-  <div class="rv2">
-    <p class="rv22">Add a review</p>
-    <p class="rv222">Your email address will not be published. Required fields are marked *</p>
-    <form>
-     <span class="ft"> Name *</span><br>
-      <input type="text" name="name" class="PPP"><br>
-   <span class="ftt">Email *</span><br>
-      <input type="text" name="email" class="PPP">
-    </form>
-  </div>
- </div>
-     
-<script>
-
-  $.ajax({
-    method: "GET",
-    url: "https://dapi.kakao.com/v3/search/book?target=title",
-    data: { query: "치매의 모든 것" },
-    headers: { Authorization: "KakaoAK 7e55dc837ebf9856b2d84e9936a60473" }
-  })
-    .done(function (msg) {
-      console.log(msg);
-      // for문 (8개)
-      var divs = document.getElementsByTagName('div');
-
-      for (var i = 0; i < divs.length; i++) {
-
-        // $(".sUbp").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
-        $(".T").eq(i).append("<h1>제목 :" + msg.documents[i].title + "</h1>");
-        $(".Au").eq(i).append("<h2>작가 :" + msg.documents[i].authors + "</h2>");
-        $(".P").eq(i).append("<h3>가격 :" + msg.documents[i].price + "</h3>");
-        $(".SP").eq(i).append("<h3>할인 가격 :" + msg.documents[i].sale_price + "</h3>");
-        $(".J").eq(i).append("<h3>" + msg.documents[i].status + "</h3>");
-
-        var str = msg.documents[i].contents;
-        var str2 = str.substring(0, 300);
-
-        $(".ST").eq(i).append("<p>" + str2 + "...</p>");
-       
-      }
-    });
-</script>
-
-  <footer>
-
-    <div class="FT">
-      <div class="gg"></div>
-
-      <div class="GG">
-        <div class="Flogo">
-          <img src="img/book logo2.jpg" alt="">
-        </div>
-
-        <div class="WN">
-          <div class="WNt">WHAT'S NEWS</div>
-
-          <div class="wni">
-            <div class="WNi"></div>
-            <div class="WNi"></div>
-          </div>
-          <div class="WNI">
-            <div class="WNit">
-              <div class="WP"></div>
-            </div>
-            <div class="WNit">
-              <div class="WP"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="LI">
-          <div class="LIt">LINKS</div>
-          <div class="LItt">
-            <div class="LIttt"> <a href="">Home</a></div>
-            <div class="LIttt"> <a href="">About us</a></div>
-            <div class="LIttt"> <a href="">Authors</a></div>
-            <div class="LIttt"> <a href="">Events</a></div>
-            <div class="LIttt"> <a href="">Store</a></div>
-            <div class="LIttt"> <a href="">Contacts</a></div>
-          </div>
-        </div>
-
-
-        <div class="GET">
-          <div class="GETt">GET IN TOUCH</div>
-          <div class="GETtt">
-            <div class="GETttt">Germany — <br>
-              785 15h Street, Office 478
-              Berlin, De 81566</div>
-            <div class="GETttt">info@email.com</div>
-            <div class="GETtttr">+1 840 841 25 69</div>
-          </div>
+      <div class="rv">
+        <div class="rvb">
+          <p>RIVEWS</p>
         </div>
       </div>
-    </div>
-  </footer>
+
+      <div class="rivew">
+        <div class="rv1">
+          <p>Average rating</p>
+          <p>
+            <span>4.00</span>
+        </div>
+
+        <div class="rv2">
+          <p class="rv22">Add a review</p>
+          <p class="rv222">Your email address will not be published. Required fields are marked *</p>
+          <form>
+            <span class="ft"> Name *</span><br>
+            <input type="text" name="name" class="PPP"><br>
+            <span class="ftt">Email *</span><br>
+            <input type="text" name="email" class="PPP">
+          </form>
+
+          <div class="rbt">
+            <input type="checkbox" value="Rbt">
+            <p class="RBT">Save my name, email, and website in this browser for the next time I comment.</p>
+          </div>
+
+          <p class="YR">Your rating *</p>
+        </div>
+          
+      </div>
+
+      <script>
+
+        $.ajax({
+          method: "GET",
+          url: "https://dapi.kakao.com/v3/search/book?target=title",
+          data: { query: "치매의 모든 것" },
+          headers: { Authorization: "KakaoAK 7e55dc837ebf9856b2d84e9936a60473" }
+        })
+          .done(function (msg) {
+            console.log(msg);
+            // for문 (8개)
+            var divs = document.getElementsByTagName('div');
+
+            for (var i = 0; i < divs.length; i++) {
+
+              // $(".sUbp").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
+              $(".T").eq(i).append("<h1>제목 :" + msg.documents[i].title + "</h1>");
+              $(".Au").eq(i).append("<h2>작가 :" + msg.documents[i].authors + "</h2>");
+              $(".P").eq(i).append("<h3>가격 :" + msg.documents[i].price + "</h3>");
+              $(".SP").eq(i).append("<h3>할인 가격 :" + msg.documents[i].sale_price + "</h3>");
+              $(".J").eq(i).append("<h3>" + msg.documents[i].status + "</h3>");
+
+              var str = msg.documents[i].contents;
+              var str2 = str.substring(0, 300);
+
+              $(".ST").eq(i).append("<p>" + str2 + "...</p>");
+
+            }
+          });
+      </script>
+
+      <footer>
+
+        <div class="FT">
+          <div class="gg"></div>
+
+          <div class="GG">
+            <div class="Flogo">
+              <img src="img/book logo2.jpg" alt="">
+            </div>
+
+            <div class="WN">
+              <div class="WNt">WHAT'S NEWS</div>
+
+              <div class="wni">
+                <div class="WNi"></div>
+                <div class="WNi"></div>
+              </div>
+              <div class="WNI">
+                <div class="WNit">
+                  <div class="WP"></div>
+                </div>
+                <div class="WNit">
+                  <div class="WP"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="LI">
+              <div class="LIt">LINKS</div>
+              <div class="LItt">
+                <div class="LIttt"> <a href="">Home</a></div>
+                <div class="LIttt"> <a href="">About us</a></div>
+                <div class="LIttt"> <a href="">Authors</a></div>
+                <div class="LIttt"> <a href="">Events</a></div>
+                <div class="LIttt"> <a href="">Store</a></div>
+                <div class="LIttt"> <a href="">Contacts</a></div>
+              </div>
+            </div>
+
+
+            <div class="GET">
+              <div class="GETt">GET IN TOUCH</div>
+              <div class="GETtt">
+                <div class="GETttt">Germany — <br>
+                  785 15h Street, Office 478
+                  Berlin, De 81566</div>
+                <div class="GETttt">info@email.com</div>
+                <div class="GETtttr">+1 840 841 25 69</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
 
 </body>
+
 </html>

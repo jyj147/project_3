@@ -436,3 +436,16 @@ body .SUB .Sub .sUb .sUbt .N .B button {
   height: 54px;
   margin: 10px 0px 32px 0px;
 }
+.rivew .rbt {
+  background-color: aqua;
+}
+.rivew .rbt .RBT {
+  font-size: 16px;
+  color: #797979;
+  margin: -22px 0px 18px 24px;
+}
+.rivew .YR {
+  background-color: red;
+  color: #121212;
+  font-size: 16px;
+}
