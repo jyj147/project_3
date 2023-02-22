@@ -403,6 +403,7 @@ body .SUB .Sub .sUb .sUbt .N .B button {
 }
 .rivew .rv1 p {
   color: #121212;
+  font-weight: bold;
   font-size: 23px;
 }
 .rivew .rv1 span {
@@ -414,4 +415,24 @@ body .SUB .Sub .sUb .sUbt .N .B button {
   height: 745px;
   background-color: yellow;
   padding: 0px 15px;
+}
+.rivew .rv2 .rv22 {
+  color: #121212;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0px 0px 20px;
+}
+.rivew .rv2 .rv222 {
+  color: #797979;
+  font-size: 18px;
+  padding: 0px 0px 20px;
+}
+.rivew .rv2 form .ft {
+  font-size: 16px;
+  color: #121212;
+}
+.rivew .rv2 form .PPP {
+  width: 630px;
+  height: 54px;
+  margin: 10px 0px 32px 0px;
 }

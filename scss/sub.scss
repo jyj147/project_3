@@ -209,6 +209,7 @@ body{
             padding: 0px 15px;
             p{
                 color: #121212;
+                font-weight: bold;
                 font-size: 23px;
             }
             span{
@@ -221,5 +222,31 @@ body{
             height: 745px;
             background-color: yellow;
             padding: 0px 15px;
+            .rv22{
+                color: #121212;
+                font-size: 25px;
+                font-weight: bold;
+                padding: 0px 0px 20px;
+            }
+            .rv222{
+                color: #797979;
+                font-size: 18px;
+                padding: 0px 0px 20px;
+            }
+            form{
+                .ft{
+                    font-size: 16px;
+                    color: #121212;
+                
+                } 
+                
+                .PPP{
+                    width: 630px;
+                    height: 54px;
+                    margin: 10px 0px 32px 0px;
+                  }  
+
+
+            }
         }
     }
