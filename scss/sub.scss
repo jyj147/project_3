@@ -279,6 +279,7 @@ body {
 
     .rbt{
         background-color: aqua;
+        margin-top: -14px;
         .RBT{
             font-size: 16px;
             color: #797979;
@@ -289,5 +290,46 @@ body {
         background-color: red;
         color: #121212;
         font-size: 16px;
+    }
+    .RR{
+        background-color: blue;
+        color: #121212;
+        font-size: 16px;
+        margin-top: 39px;
+    }
+    .RRB{
+        .TEXT{
+            width: 630px;
+            height: 96px;
+            margin-top: 16px;
+        }
+    }
+
+    .RBt{
+        background-color: pink;
+        margin-top: 15px;
+        .RbTt{
+            font-size: 16px;
+            color: #797979;
+            margin: -22px 0px 18px 24px;
+        }
+    }
+
+    .zxc{
+        button{
+            width: 141px;
+            height: 59px;
+            background-color: #121212;
+            color: white;
+            margin-top: 21px;
+            border: #121212 2px solid;
+
+            &:hover{
+                background-color: white;
+                border: #121212 2px solid;
+                color: #121212;
+                font-weight: bold;
+            }
+        }
     }
 }
