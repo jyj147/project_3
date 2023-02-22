@@ -401,6 +401,12 @@ body .SUB .Sub .sUb .sUbt .N .B button {
   background-color: green;
   padding: 0px 15px;
 }
+.rivew .rv1 .star-rating {
+  width: 205px;
+  height: 39px;
+  background-color: pink;
+  margin-top: 15px;
+}
 .rivew .rv1 p {
   color: #121212;
   font-weight: bold;
