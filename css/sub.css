@@ -437,7 +437,6 @@ body .SUB .Sub .sUb .sUbt .N .B button {
   margin: 10px 0px 32px 0px;
 }
 .rivew .rbt {
-  background-color: aqua;
   margin-top: -14px;
 }
 .rivew .rbt .RBT {
@@ -446,12 +445,10 @@ body .SUB .Sub .sUb .sUbt .N .B button {
   margin: -22px 0px 18px 24px;
 }
 .rivew .YR {
-  background-color: red;
   color: #121212;
   font-size: 16px;
 }
 .rivew .RR {
-  background-color: blue;
   color: #121212;
   font-size: 16px;
   margin-top: 39px;
@@ -462,7 +459,6 @@ body .SUB .Sub .sUb .sUbt .N .B button {
   margin-top: 16px;
 }
 .rivew .RBt {
-  background-color: pink;
   margin-top: 15px;
 }
 .rivew .RBt .RbTt {
