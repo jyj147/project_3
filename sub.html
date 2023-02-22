@@ -166,13 +166,36 @@
 
       </div>
       <div class="SALE">
-        <span class="SA">Get -30% purchase on order over $299.00</span>
+        <span class="SA"> <a>Get -30% purchase</a>  on order over $299.00</span>
+        <button class="LE">MORE INFO</button>
       </div>
     </div>
 
 
+  <script>
+    $.ajax({
+      method: "GET",
+      url: "https://dapi.kakao.com/v3/search/book?target=title",
+      data: { query: "dementia" },
+      headers: { Authorization: "KakaoAK 7e55dc837ebf9856b2d84e9936a60473" }
+    })
+      .done(function (msg) {
+        console.log(msg);
+        // for문 (8개)
+        var divs = document.getElementsByTagName('div');
 
+        for (var i = 0; i < divs.length; i++) {
 
+          $(".PKK").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
+          $(".PPKT").eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
+          $(".PPKT").eq(i).append("<h6>" + msg.documents[i].authors + "</h6>");
+
+          var str = msg.documents[i].contents;
+          var str2 = str.substring(0, 60);
+          $(".PPKT").eq(i).append("<p>" + str2 + "</p>");
+        }
+      });
+  </script>
 
 
     <script>

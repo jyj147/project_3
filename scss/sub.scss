@@ -32,7 +32,7 @@ body {
 
         .Sub {
             width: 100%;
-            height: 2584px;
+            height: 2650px;
             background-color: #F5F5F4;
             padding: 127px 0px 133px;
             position: relative;
@@ -194,16 +194,16 @@ body {
     width: 100%;
     // height: 3113px;
     height: 70px;
-    background-color: cadetblue;
 
     .rvb {
         width: 221px;
         height: 70px;
-        background-color: #DE3241;
+        background-color: #FFFF;
         margin-left: 305px;
         display: flex;
         align-content: flex-start;
         margin-top: 60px;
+        border: #121212 2px solid;
 
         p {
             text-align: center;
@@ -219,7 +219,7 @@ body {
 .rivew {
     width: 100%;
     height: 843px;
-    background-color: plum;
+    background-color: #F5F5F4;
     display: flex;
     justify-content: center;
 
@@ -342,20 +342,18 @@ body {
 
 .PR {
     width: 100%;
-    height: 583px;
-    background-color: coral;
+    height: 644px;
+    background-color: #F5F5F4;
     display: flex;
     justify-content: center;
 
     .PRR {
         width: 1290px;
         height: 100%;
-        background-color: red;
 
         .RP {
             width: 1291px;
             height: 63px;
-            background-color: yellow;
             text-align: center;
             font-size: 39px;
             color: #191919;
@@ -366,13 +364,16 @@ body {
             height: 370px;
             display: flex;
             justify-content: space-between;
-            background-color: purple;
 
             .PKK {
                 width: 190px;
                 height: 290px;
                 margin-top: 70px;
-                background-color: blue;
+
+                img{
+                    width: 190px;
+                    height: 290px;
+                }
             }
         }
 
@@ -383,13 +384,13 @@ body {
         height: 150px;
         display: flex;
         justify-content: space-between;
-        background-color: yellow;
+        // background-color: yellow;
 
         .PPKT {
             width: 190px;
             height: 140px;
             text-align: center;
-            background-color: orangered;
+            // background-color: orangered;
         }
     }
 }
@@ -397,14 +398,36 @@ body {
 .SALE {
     width: 100%;
     height: 229px;
-    background-color: skyblue;
+    background-color: #DE3241;
+    display: flex;
+    justify-content: space-around;
     display: flex;
     span{
         width: 847px;
         height: 54px;
-        background-color: blueviolet;
         text-align: center;
         margin-top: 91px;
         font-size: 40px;
+        margin-left: 107px;
+
+        a{
+            color: white;
+        }
+    }
+    button{
+        background-color: #121212;
+        color: white;
+        border: #121212 2px solid;
+        width: 174px;
+        height: 59px;
+        margin-top: 91px;
+        margin-right: 150px;
+
+        &:hover{
+            background-color: white;
+            border: #121212 2px solid;
+            color: #121212;
+            font-weight: bold;
+        }
     }
 }
