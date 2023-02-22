@@ -390,7 +390,7 @@ body .SUB .Sub .sUb .sUbt .N .B button {
 
 .rivew {
   width: 100%;
-  height: 3113px;
+  height: 843px;
   background-color: plum;
   display: flex;
   justify-content: center;
@@ -483,4 +483,10 @@ body .SUB .Sub .sUb .sUbt .N .B button {
   border: #121212 2px solid;
   color: #121212;
   font-weight: bold;
+}
+
+.PR {
+  width: 100%;
+  height: 583px;
+  background-color: coral;
 }

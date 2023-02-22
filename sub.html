@@ -94,6 +94,7 @@
                 <p>BUY NOW</p>
               </button></div>
           </div>
+
         </div>
 
 
@@ -128,104 +129,112 @@
           </div>
 
           <p class="YR">Your rating *</p>
-            <!-- 별 -->
-            <P class="RR">Your review *</P>
-            <div class="RRB"><input type="text" class="TEXT"></div>
+          <!-- 별 -->
+          <P class="RR">Your review *</P>
+          <div class="RRB"><input type="text" class="TEXT"></div>
 
-            <div class="RBt">
-              <input type="checkbox" value="RBt">
-              <p class="RbTt">I agree that my submitted data is being collected and stored. *</p>
-            </div>
+          <div class="RBt">
+            <input type="checkbox" value="RBt">
+            <p class="RbTt">I agree that my submitted data is being collected and stored. *</p>
+          </div>
 
-            <div class="zxc"><button>SUBMIT</button></div>
+          <div class="zxc"><button>SUBMIT</button></div>
         </div>
-          
+
       </div>
+      <div class="PR"></div>
 
-      <script>
+    </div>
 
-        $.ajax({
-          method: "GET",
-          url: "https://dapi.kakao.com/v3/search/book?target=title",
-          data: { query: "치매의 모든 것" },
-          headers: { Authorization: "KakaoAK 7e55dc837ebf9856b2d84e9936a60473" }
-        })
-          .done(function (msg) {
-            console.log(msg);
-            // for문 (8개)
-            var divs = document.getElementsByTagName('div');
 
-            for (var i = 0; i < divs.length; i++) {
 
-              // $(".sUbp").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
-              $(".T").eq(i).append("<h1>제목 :" + msg.documents[i].title + "</h1>");
-              $(".Au").eq(i).append("<h2>작가 :" + msg.documents[i].authors + "</h2>");
-              $(".P").eq(i).append("<h3>가격 :" + msg.documents[i].price + "</h3>");
-              $(".SP").eq(i).append("<h3>할인 가격 :" + msg.documents[i].sale_price + "</h3>");
-              $(".J").eq(i).append("<h3>" + msg.documents[i].status + "</h3>");
 
-              var str = msg.documents[i].contents;
-              var str2 = str.substring(0, 300);
 
-              $(".ST").eq(i).append("<p>" + str2 + "...</p>");
 
-            }
-          });
-      </script>
+    <script>
 
-      <footer>
+      $.ajax({
+        method: "GET",
+        url: "https://dapi.kakao.com/v3/search/book?target=title",
+        data: { query: "치매의 모든 것" },
+        headers: { Authorization: "KakaoAK 7e55dc837ebf9856b2d84e9936a60473" }
+      })
+        .done(function (msg) {
+          console.log(msg);
+          // for문 (8개)
+          var divs = document.getElementsByTagName('div');
 
-        <div class="FT">
-          <div class="gg"></div>
+          for (var i = 0; i < divs.length; i++) {
 
-          <div class="GG">
-            <div class="Flogo">
-              <img src="img/book logo2.jpg" alt="">
+            // $(".sUbp").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
+            $(".T").eq(i).append("<h1>제목 :" + msg.documents[i].title + "</h1>");
+            $(".Au").eq(i).append("<h2>작가 :" + msg.documents[i].authors + "</h2>");
+            $(".P").eq(i).append("<h3>가격 :" + msg.documents[i].price + "</h3>");
+            $(".SP").eq(i).append("<h3>할인 가격 :" + msg.documents[i].sale_price + "</h3>");
+            $(".J").eq(i).append("<h3>" + msg.documents[i].status + "</h3>");
+
+            var str = msg.documents[i].contents;
+            var str2 = str.substring(0, 300);
+
+            $(".ST").eq(i).append("<p>" + str2 + "...</p>");
+
+          }
+        });
+    </script>
+
+    <footer>
+
+      <div class="FT">
+        <div class="gg"></div>
+
+        <div class="GG">
+          <div class="Flogo">
+            <img src="img/book logo2.jpg" alt="">
+          </div>
+
+          <div class="WN">
+            <div class="WNt">WHAT'S NEWS</div>
+
+            <div class="wni">
+              <div class="WNi"></div>
+              <div class="WNi"></div>
             </div>
-
-            <div class="WN">
-              <div class="WNt">WHAT'S NEWS</div>
-
-              <div class="wni">
-                <div class="WNi"></div>
-                <div class="WNi"></div>
+            <div class="WNI">
+              <div class="WNit">
+                <div class="WP"></div>
               </div>
-              <div class="WNI">
-                <div class="WNit">
-                  <div class="WP"></div>
-                </div>
-                <div class="WNit">
-                  <div class="WP"></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="LI">
-              <div class="LIt">LINKS</div>
-              <div class="LItt">
-                <div class="LIttt"> <a href="">Home</a></div>
-                <div class="LIttt"> <a href="">About us</a></div>
-                <div class="LIttt"> <a href="">Authors</a></div>
-                <div class="LIttt"> <a href="">Events</a></div>
-                <div class="LIttt"> <a href="">Store</a></div>
-                <div class="LIttt"> <a href="">Contacts</a></div>
-              </div>
-            </div>
-
-
-            <div class="GET">
-              <div class="GETt">GET IN TOUCH</div>
-              <div class="GETtt">
-                <div class="GETttt">Germany — <br>
-                  785 15h Street, Office 478
-                  Berlin, De 81566</div>
-                <div class="GETttt">info@email.com</div>
-                <div class="GETtttr">+1 840 841 25 69</div>
+              <div class="WNit">
+                <div class="WP"></div>
               </div>
             </div>
           </div>
+
+          <div class="LI">
+            <div class="LIt">LINKS</div>
+            <div class="LItt">
+              <div class="LIttt"> <a href="">Home</a></div>
+              <div class="LIttt"> <a href="">About us</a></div>
+              <div class="LIttt"> <a href="">Authors</a></div>
+              <div class="LIttt"> <a href="">Events</a></div>
+              <div class="LIttt"> <a href="">Store</a></div>
+              <div class="LIttt"> <a href="">Contacts</a></div>
+            </div>
+          </div>
+
+
+          <div class="GET">
+            <div class="GETt">GET IN TOUCH</div>
+            <div class="GETtt">
+              <div class="GETttt">Germany — <br>
+                785 15h Street, Office 478
+                Berlin, De 81566</div>
+              <div class="GETttt">info@email.com</div>
+              <div class="GETtttr">+1 840 841 25 69</div>
+            </div>
+          </div>
         </div>
-      </footer>
+      </div>
+    </footer>
 
 </body>
 

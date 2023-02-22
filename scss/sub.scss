@@ -218,7 +218,7 @@ body {
 
 .rivew {
     width: 100%;
-    height: 3113px;
+    height: 843px;
     background-color: plum;
     display: flex;
     justify-content: center;
@@ -277,46 +277,51 @@ body {
         }
     }
 
-    .rbt{
+    .rbt {
         background-color: aqua;
         margin-top: -14px;
-        .RBT{
+
+        .RBT {
             font-size: 16px;
             color: #797979;
             margin: -22px 0px 18px 24px;
         }
     }
-    .YR{
+
+    .YR {
         background-color: red;
         color: #121212;
         font-size: 16px;
     }
-    .RR{
+
+    .RR {
         background-color: blue;
         color: #121212;
         font-size: 16px;
         margin-top: 39px;
     }
-    .RRB{
-        .TEXT{
+
+    .RRB {
+        .TEXT {
             width: 630px;
             height: 96px;
             margin-top: 16px;
         }
     }
 
-    .RBt{
+    .RBt {
         background-color: pink;
         margin-top: 15px;
-        .RbTt{
+
+        .RbTt {
             font-size: 16px;
             color: #797979;
             margin: -22px 0px 18px 24px;
         }
     }
 
-    .zxc{
-        button{
+    .zxc {
+        button {
             width: 141px;
             height: 59px;
             background-color: #121212;
@@ -324,7 +329,7 @@ body {
             margin-top: 21px;
             border: #121212 2px solid;
 
-            &:hover{
+            &:hover {
                 background-color: white;
                 border: #121212 2px solid;
                 color: #121212;
@@ -332,4 +337,11 @@ body {
             }
         }
     }
+
+}
+
+.PR {
+    width: 100%;
+    height: 583px;
+    background-color: coral;
 }
