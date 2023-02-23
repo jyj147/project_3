@@ -408,6 +408,8 @@ body .SUB .Sub .sUb .sUbt .N .B button {
 }
 .rivew .rv1 .graph {
   margin-top: 74px;
+  opacity: 0;
+  transition: 0.25s;
 }
 .rivew .rv1 p {
   color: #121212;
@@ -558,11 +560,13 @@ body .SUB .Sub .sUb .sUbt .N .B button {
   margin-top: 91px;
   font-size: 40px;
   margin-left: 107px;
-  opacity: 0;
-  transition: 0.2s;
 }
 .SALE .SA a {
   color: white;
+}
+.SALE .SA .sese {
+  opacity: 0;
+  transition: 0.3s;
 }
 .SALE button {
   background-color: #121212;

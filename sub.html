@@ -218,6 +218,20 @@
             }
 
           </script>
+          <script>
+            $(document).ready(function () {
+              $(window).scroll(function () {
+                $('.graph').each(function () {
+                  var bottom_of_element = $(this).offset().top + $(this).outerHeight() / 2;
+                  var bottom_of_window = $(window).scrollTop() + $(window).height() - 100;
+
+                  if (bottom_of_window > bottom_of_element) {
+                    $(this).animate({ 'opacity': '1' }, 100);
+                  }
+                });
+              });
+            });
+          </script>
 
         </div>
 
@@ -279,7 +293,9 @@
 
       </div>
       <div class="SALE">
-        <span class="SA"> <a>Get -30% purchase</a> on order over $299.00</span>
+        <span class="SA"> <a>Get -30% purchase</a>
+          <k class="sese"> on order over $299.00</k>
+        </span>
         <button class="LE">MORE INFO</button>
       </div>
     </div>
@@ -289,7 +305,7 @@
     <script>
       $(document).ready(function () {
         $(window).scroll(function () {
-          $('.SA').each(function () {
+          $('.sese').each(function () {
             var bottom_of_element = $(this).offset().top + $(this).outerHeight() / 2;
             var bottom_of_window = $(window).scrollTop() + $(window).height() - 100;
 
