@@ -20,17 +20,17 @@ body {
     .DBt {
         font-size: 55px;
         text-align: center;
-    //    text::before{
-    //         left: auto;
-    //         right: auto;
-    //         position: absolute;
-    //         z-index: 1;
-    //         bottom: 0;
-    //         left: 50%;
-    //         -webkit-transform: translateX(-50%);
-    //         transform: translateX(-50%);
-    //         background-color: #121212;
-    //     }
+        //    text::before{
+        //         left: auto;
+        //         right: auto;
+        //         position: absolute;
+        //         z-index: 1;
+        //         bottom: 0;
+        //         left: 50%;
+        //         -webkit-transform: translateX(-50%);
+        //         transform: translateX(-50%);
+        //         background-color: #121212;
+        //     }
     }
 
     .DBb {
@@ -43,7 +43,8 @@ body {
     .Dbt {
         font-size: 15px;
         color: #272727;
-        &:hover{
+
+        &:hover {
             color: #De3241;
         }
     }
@@ -208,7 +209,7 @@ body {
         height: 879px;
         display: flex;
         justify-content: center;
-        background-color:  #f0efed;
+        background-color: #f0efed;
 
         .cyb {
 
@@ -610,8 +611,9 @@ body {
 
             }
 
-            
+
         }
+
         .Dem {
             width: 35%;
             height: 604px;
