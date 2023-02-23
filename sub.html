@@ -72,13 +72,6 @@
     }
   </style>
 
-  <style>
-    /* span.SA {
-      display: none;
-    } */
-  </style>
-
-
 </head>
 
 <body>
@@ -290,45 +283,23 @@
         <button class="LE">MORE INFO</button>
       </div>
     </div>
-    
 
 
-     <script>
-      // $(document).ready(function () {
-      //   $('span.SA').fadeIn(2000);
 
-      //   var didScroll;
-      // // 스크롤시에 사용자가 스크롤했다는 것을 알림 
-      // $(window).scroll(function (event) {
-      //   didScroll = true;
-      // });
-
-      // // hasScrolled()를 실행하고 didScroll 상태를 재설정
-      // setInterval(function () {
-      //   if (didScroll) {
-      //     hasScrolled();
-      //     didScroll = false;
-      //   }
-      // }, 200);
-
-      // function hasScrolled() {
-      //   // 동작을 구현
-      // }
-      // });
-
+    <script>
       $(document).ready(function () {
-    $(window).scroll(function () {
-        $('.SA').each(function () {
+        $(window).scroll(function () {
+          $('.SA').each(function () {
             var bottom_of_element = $(this).offset().top + $(this).outerHeight() / 2;
-            var bottom_of_window = $(window).scrollTop() + $(window).height() -100;
+            var bottom_of_window = $(window).scrollTop() + $(window).height() - 100;
 
             if (bottom_of_window > bottom_of_element) {
-                $(this).animate({ 'opacity': '1' }, 100);
+              $(this).animate({ 'opacity': '1' }, 100);
             }
+          });
         });
-    });
-});
-    </script> 
+      });
+    </script>
 
     <script>
       $.ajax({
