@@ -72,6 +72,13 @@
     }
   </style>
 
+  <style>
+    span.SA {
+      display: none;
+    }
+  </style>
+
+
 </head>
 
 <body>
@@ -178,44 +185,44 @@
 
           <ul id="g1" class="graph">
             <h1>1review</h1> <br>
-          
+
             <li>5stars : <span style="width: 50%"><em>40%</em></span></li>
             <li>4stars : <span style="width: 30%"><em>50%</em></span></li>
             <li>3stars : <span style="width: 20%"><em>10%</em></span></li>
             <li>2stars : <span style="width: 0%"><em>0%</em></span></li>
-            <li>1star  : <span style="width: 0%"><em>0%</em></span></li>
+            <li>1star : <span style="width: 0%"><em>0%</em></span></li>
           </ul>
-        
-          <hr/>
+
+          <hr />
 
 
           <script type="text/javascript">
             drawGraph(document.getElementById("g1"));
 
             function drawGraph(obj) {
-                  this.gages = obj.getElementsByTagName("span");
-                  this.values = obj.getElementsByTagName("em");
+              this.gages = obj.getElementsByTagName("span");
+              this.values = obj.getElementsByTagName("em");
 
-                  for (var i = 0; i < this.gages.length; i++) {
-                    (function (idx) {
-                      var current_value = 0;
-                      var gage_object = this.gages[idx];
-                      var gage_value = this.values[idx];
-                      var gage_width = parseInt(gage_object.style.width);
-                      var timer = null;
+              for (var i = 0; i < this.gages.length; i++) {
+                (function (idx) {
+                  var current_value = 0;
+                  var gage_object = this.gages[idx];
+                  var gage_value = this.values[idx];
+                  var gage_width = parseInt(gage_object.style.width);
+                  var timer = null;
 
-                      timer = setInterval(function () {
-                        if (current_value < gage_width) {
-                          current_value += Math.ceil((gage_width - current_value) / 15);
-                          gage_object.style.width = current_value + "%";
-                          gage_value.innerHTML = current_value + "%";
-                        } else {
-                          clearInterval(timer);
-                        }
-                      }, 10);
-                    })(i);
-                  }
-                }
+                  timer = setInterval(function () {
+                    if (current_value < gage_width) {
+                      current_value += Math.ceil((gage_width - current_value) / 15);
+                      gage_object.style.width = current_value + "%";
+                      gage_value.innerHTML = current_value + "%";
+                    } else {
+                      clearInterval(timer);
+                    }
+                  }, 10);
+                })(i);
+              }
+            }
 
           </script>
 
@@ -283,7 +290,29 @@
         <button class="LE">MORE INFO</button>
       </div>
     </div>
+    <script>
+      $(document).ready(function () {
+        $('span.SA').fadeIn(2000);
+      });
 
+      var didScroll;
+      // 스크롤시에 사용자가 스크롤했다는 것을 알림 
+      $(window).scroll(function (event) {
+        didScroll = true;
+      });
+
+      // hasScrolled()를 실행하고 didScroll 상태를 재설정
+      setInterval(function () {
+        if (didScroll) {
+          hasScrolled();
+          didScroll = false;
+        }
+      }, 200);
+
+      function hasScrolled() {
+        // 동작을 구현
+      }
+    </script>
 
     <script>
       $.ajax({
