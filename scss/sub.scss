@@ -59,59 +59,42 @@ body {
                 .sUbt {
                     width: 849px;
                     height: 672px;
-                    // display: flex;
-                    // flex-direction: column;
-                    // background-color: beige;
-
                     .T {
-                        // margin-top: auto;
-                        // margin-left: 56px;
                         margin: 0px 0px 18px 48px;
                         font-size: 12px;
                     }
 
                     .Au {
-                        // margin-top: auto;
-                        // margin-left: 56px;
                         color: #797979;
                         margin: 0px 0px 18px 52px;
                         font-size: 13px;
                     }
 
                     .P {
-                        // margin-top: auto;
-                        // margin-left: 56px;
                         color: #DE3241;
                         margin: 0px 0px 18px 52px;
                         font-size: 13px;
                     }
 
                     .SP {
-                        // margin-top: auto;
-                        // margin-left: 56px;
                         color: #DE3241;
                         margin: 0px 0px 18px 52px;
                         font-size: 13px;
                     }
 
                     .J {
-                        // margin-top: auto;
-                        // margin-left: 56px;
                         margin: 0px 0px 18px 52px;
                         font-size: 13px;
                     }
 
                     .ST {
-                        // margin-top: auto;
                         height: 200px;
                         font-size: 18px;
-                        // margin-left: 56px;
                         margin: 0px 0px 18px 52px;
                         color: #797979;
                     }
 
                     .OP {
-                        // background-color: plum;
                         width: 172px;
                         height: 138px;
                         margin: -15px 0px 0px 50px;
@@ -121,17 +104,10 @@ body {
                         .on {
                             width: 83px;
                             height: 138px;
-
-                            // background-color: #DE3241;
                             &:hover {
                                 border: solid 2px black;
                             }
 
-                            // img{
-                            //     &:hover{
-                            //         border: solid 2px black;
-                            //     }
-                            // }
                             p {
                                 font-size: 13px;
                                 margin-top: 10px;
@@ -142,8 +118,6 @@ body {
                         .pa {
                             width: 83px;
                             height: 138px;
-
-                            // background-color: aqua;
                             &:hover {
                                 border: solid 2px black;
                             }
@@ -159,7 +133,6 @@ body {
                     .N {
                         width: 270px;
                         height: 60px;
-                        // background-color: rebeccapurple;
                         margin: 0px 0px 0px 50px;
                         display: flex;
                         justify-content: space-between;
@@ -192,7 +165,6 @@ body {
 
 .rv {
     width: 100%;
-    // height: 3113px;
     height: 70px;
 
     .rvb {
@@ -226,25 +198,17 @@ body {
     .rv1 {
         width: 660px;
         height: 745px;
-        background-color: green;
         padding: 0px 15px;
         margin-top: 30px;
 
         .star-rating{
             width: 205px;
             height: 39px;
-            // background-color: pink;
             margin-top: 15px;
         }
         .graph{
-            background-color: pink;
             margin-top: 74px;
             
-        }
-        .1r{
-            width: 10px;
-            height: 10px;
-            background-color: #DE3241;
         }
         p {
             color: #121212;
@@ -260,7 +224,6 @@ body {
         .gr{
             width: 553px;
             height: 250px;
-            // background-color: yellow;
             margin-top: 26px;
             img{
                 width: 494px;
@@ -272,7 +235,6 @@ body {
     .rv2 {
         width: 660px;
         height: 745px;
-        // background-color: yellow;
         padding: 0px 15px;
         margin-top: 30px;
 
@@ -307,7 +269,6 @@ body {
     }
 
     .rbt {
-        // background-color: aqua;
         margin-top: -14px;
 
         .RBT {
@@ -318,13 +279,11 @@ body {
     }
 
     .YR {
-        // background-color: red;
         color: #121212;
         font-size: 16px;
     }
     
     .RR {
-        // background-color: blue;
         color: #121212;
         font-size: 16px;
         margin-top: 28px;
@@ -339,7 +298,6 @@ body {
     }
 
     .RBt {
-        // background-color: pink;
         margin-top: 15px;
 
         .RbTt {
@@ -413,13 +371,11 @@ body {
         height: 150px;
         display: flex;
         justify-content: space-between;
-        // background-color: yellow;
 
         .PPKT {
             width: 190px;
             height: 140px;
             text-align: center;
-            // background-color: orangered;
         }
     }
 }
