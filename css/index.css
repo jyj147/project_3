@@ -414,6 +414,7 @@ body .CYB .cyb .Cyb .cYa {
   width: 283px;
   height: 309px;
   position: relative;
+  overflow: hidden;
   margin-top: 115px;
 }
 body .CYB .cyb .Cyb .cYa p {
