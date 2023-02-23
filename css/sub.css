@@ -407,6 +407,15 @@ body .SUB .Sub .sUb .sUbt .N .B button {
   height: 39px;
   margin-top: 15px;
 }
+.rivew .rv1 .graph {
+  background-color: pink;
+  margin-top: 74px;
+}
+.rivew .rv1 .graph .h1 {
+  width: 10px;
+  height: 10px;
+  background-color: #DE3241;
+}
 .rivew .rv1 p {
   color: #121212;
   font-weight: bold;
