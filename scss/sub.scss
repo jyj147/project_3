@@ -59,6 +59,7 @@ body {
                 .sUbt {
                     width: 849px;
                     height: 672px;
+
                     .T {
                         margin: 0px 0px 18px 48px;
                         font-size: 12px;
@@ -104,6 +105,7 @@ body {
                         .on {
                             width: 83px;
                             height: 138px;
+
                             &:hover {
                                 border: solid 2px black;
                             }
@@ -118,6 +120,7 @@ body {
                         .pa {
                             width: 83px;
                             height: 138px;
+
                             &:hover {
                                 border: solid 2px black;
                             }
@@ -201,15 +204,17 @@ body {
         padding: 0px 15px;
         margin-top: 30px;
 
-        .star-rating{
+        .star-rating {
             width: 205px;
             height: 39px;
             margin-top: 15px;
         }
-        .graph{
+
+        .graph {
             margin-top: 74px;
-            
+
         }
+
         p {
             color: #121212;
             font-weight: bold;
@@ -221,11 +226,12 @@ body {
             font-size: 54px;
         }
 
-        .gr{
+        .gr {
             width: 553px;
             height: 250px;
             margin-top: 26px;
-            img{
+
+            img {
                 width: 494px;
                 height: 261px;
             }
@@ -282,7 +288,7 @@ body {
         color: #121212;
         font-size: 16px;
     }
-    
+
     .RR {
         color: #121212;
         font-size: 16px;
@@ -357,7 +363,7 @@ body {
                 height: 290px;
                 margin-top: 70px;
 
-                img{
+                img {
                     width: 190px;
                     height: 290px;
                 }
@@ -387,7 +393,8 @@ body {
     display: flex;
     justify-content: space-around;
     display: flex;
-    span{
+
+    span {
         width: 847px;
         height: 54px;
         text-align: center;
@@ -395,11 +402,12 @@ body {
         font-size: 40px;
         margin-left: 107px;
 
-        a{
+        a {
             color: white;
         }
     }
-    button{
+
+    button {
         background-color: #121212;
         color: white;
         border: #121212 2px solid;
@@ -408,7 +416,7 @@ body {
         margin-top: 91px;
         margin-right: 150px;
 
-        &:hover{
+        &:hover {
             background-color: white;
             border: #121212 2px solid;
             color: #121212;

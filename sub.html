@@ -11,22 +11,67 @@
   <meta name="Description" content="">
   <title>Booklovers</title>
   <style>
-    .star-rating{width: 205px;}
-    .star-rating,.star-rating span{display: inline-block; height: 39px; overflow: hidden;
-    background:url(img/star.png)no-repeat;}
-    .star-rating span{background-position: left bottom; line-height: 0; vertical-align: top;}
+    .star-rating {
+      width: 205px;
+    }
+
+    .star-rating,
+    .star-rating span {
+      display: inline-block;
+      height: 39px;
+      overflow: hidden;
+      background: url(img/star.png)no-repeat;
+    }
+
+    .star-rating span {
+      background-position: left bottom;
+      line-height: 0;
+      vertical-align: top;
+    }
   </style>
   <link rel="stylesheet" href="css/sub.css">
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
   <style type="text/css">
-    ul, li, p { margin: 0; padding: 0; }
-    .graph  { width: 90%; list-style: none; }
-    .graph li   { position: relative; padding: 1px 0; white-space:nowrap; }
-    .graph li span  { display: inline-block; position: relative; height: 20px; line-height: 20px; background: #DE3241; }
-    .graph li em  { position: absolute; top: 0; right: -45px; font-family: arial; color: #000; font-size: 16px;}
-    .graph h1{font-size: 16px;}
-    </style>
-    
+    ul,
+    li,
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    .graph {
+      width: 90%;
+      list-style: none;
+    }
+
+    .graph li {
+      position: relative;
+      padding: 1px 0;
+      white-space: nowrap;
+    }
+
+    .graph li span {
+      display: inline-block;
+      position: relative;
+      height: 20px;
+      line-height: 20px;
+      background: #DE3241;
+    }
+
+    .graph li em {
+      position: absolute;
+      top: 0;
+      right: -45px;
+      font-family: arial;
+      color: #000;
+      font-size: 16px;
+    }
+
+    .graph h1 {
+      font-size: 16px;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -126,51 +171,52 @@
         <div class="rv1">
           <p>Average rating</p>
           <p>
-            <span>4.00</span> <p>
+            <span>4.00</span>
+          <p>
             <span class="star-rating"> <span style="width:80%"></span> </span>
 
-           
-            <ul id="g1" class="graph">
-             <h1>1review</h1> <br>
-                   <li>5stars : <span style="width: 50%"><em>40%</em></span></li>
-                   <li>4stars : <span style="width: 30%"><em>50%</em></span></li>
-                   <li>3stars : <span style="width: 20%"><em>10%</em></span></li>
-                   <li>2stars : <span style="width: 0%"><em>0%</em></span></li>
-                   <li>1star  : <span style="width: 0%"><em>0%</em></span></li>
-               </ul>
-           
-               <hr />
-           
 
-               <script type="text/javascript">
-                drawGraph(document.getElementById("g1"));
-                
-                function drawGraph(obj) {
-                    this.gages = obj.getElementsByTagName("span");
-                    this.values = obj.getElementsByTagName("em");
-                
-                    for(var i = 0; i < this.gages.length; i ++) {
-                        (function(idx) {
-                            var current_value = 0;
-                            var gage_object = this.gages[idx];
-                            var gage_value = this.values[idx];
-                            var gage_width = parseInt(gage_object.style.width);
-                            var timer = null;
-                
-                            timer = setInterval(function() {
-                                if(current_value < gage_width) {
-                                    current_value += Math.ceil((gage_width - current_value) / 15);
-                                    gage_object.style.width = current_value + "%";
-                                    gage_value.innerHTML = current_value + "%";
-                                } else {
-                                    clearInterval(timer);
-                                }
-                            }, 10);
-                        })(i);
+          <ul id="g1" class="graph">
+            <h1>1review</h1> <br>
+            <li>5stars : <span style="width: 50%"><em>40%</em></span></li>
+            <li>4stars : <span style="width: 30%"><em>50%</em></span></li>
+            <li>3stars : <span style="width: 20%"><em>10%</em></span></li>
+            <li>2stars : <span style="width: 0%"><em>0%</em></span></li>
+            <li>1star : <span style="width: 0%"><em>0%</em></span></li>
+          </ul>
+
+          <hr />
+
+
+          <script type="text/javascript">
+            drawGraph(document.getElementById("g1"));
+
+            function drawGraph(obj) {
+              this.gages = obj.getElementsByTagName("span");
+              this.values = obj.getElementsByTagName("em");
+
+              for (var i = 0; i < this.gages.length; i++) {
+                (function (idx) {
+                  var current_value = 0;
+                  var gage_object = this.gages[idx];
+                  var gage_value = this.values[idx];
+                  var gage_width = parseInt(gage_object.style.width);
+                  var timer = null;
+
+                  timer = setInterval(function () {
+                    if (current_value < gage_width) {
+                      current_value += Math.ceil((gage_width - current_value) / 15);
+                      gage_object.style.width = current_value + "%";
+                      gage_value.innerHTML = current_value + "%";
+                    } else {
+                      clearInterval(timer);
                     }
-                }
-                </script>
-                
+                  }, 10);
+                })(i);
+              }
+            }
+          </script>
+
         </div>
 
         <div class="rv2">
@@ -193,8 +239,8 @@
 
 
           <div class="star2">
-          <span class="star-rating"> <span style="width:60%"></span> </span>
-        </div>
+            <span class="star-rating"> <span style="width:60%"></span> </span>
+          </div>
           <P class="RR">Your review *</P>
           <div class="RRB"><input type="text" class="TEXT"></div>
 
@@ -231,36 +277,36 @@
 
       </div>
       <div class="SALE">
-        <span class="SA"> <a>Get -30% purchase</a>  on order over $299.00</span>
+        <span class="SA"> <a>Get -30% purchase</a> on order over $299.00</span>
         <button class="LE">MORE INFO</button>
       </div>
     </div>
 
 
-  <script>
-    $.ajax({
-      method: "GET",
-      url: "https://dapi.kakao.com/v3/search/book?target=title",
-      data: { query: "치매" },
-      headers: { Authorization: "KakaoAK 7e55dc837ebf9856b2d84e9936a60473" }
-    })
-      .done(function (msg) {
-        console.log(msg);
-        // for문 (8개)
-        var divs = document.getElementsByTagName('div');
+    <script>
+      $.ajax({
+        method: "GET",
+        url: "https://dapi.kakao.com/v3/search/book?target=title",
+        data: { query: "치매" },
+        headers: { Authorization: "KakaoAK 7e55dc837ebf9856b2d84e9936a60473" }
+      })
+        .done(function (msg) {
+          console.log(msg);
+          // for문 (8개)
+          var divs = document.getElementsByTagName('div');
 
-        for (var i = 0; i < divs.length; i++) {
+          for (var i = 0; i < divs.length; i++) {
 
-          $(".PKK").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
-          $(".PPKT").eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
-          $(".PPKT").eq(i).append("<h6>" + msg.documents[i].authors + "</h6>");
+            $(".PKK").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
+            $(".PPKT").eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
+            $(".PPKT").eq(i).append("<h6>" + msg.documents[i].authors + "</h6>");
 
-          var str = msg.documents[i].contents;
-          var str2 = str.substring(0, 40);
-          $(".PPKT").eq(i).append("<p>" + str2 + "..</p>");
-        }
-      });
-  </script>
+            var str = msg.documents[i].contents;
+            var str2 = str.substring(0, 40);
+            $(".PPKT").eq(i).append("<p>" + str2 + "..</p>");
+          }
+        });
+    </script>
 
 
     <script>
