@@ -551,15 +551,17 @@ body .SUB .Sub .sUb .sUbt .N .B button {
   justify-content: space-around;
   display: flex;
 }
-.SALE span {
+.SALE .SA {
   width: 847px;
   height: 54px;
   text-align: center;
   margin-top: 91px;
   font-size: 40px;
   margin-left: 107px;
+  opacity: 0;
+  transition: 0.2s;
 }
-.SALE span a {
+.SALE .SA a {
   color: white;
 }
 .SALE button {
