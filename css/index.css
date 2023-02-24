@@ -534,10 +534,41 @@ body .CYB .cyb .Cyb .cYd {
   width: 283px;
   height: 309px;
   margin-top: 115px;
+  position: relative;
+  overflow: hidden;
 }
-body .CYB .cyb .Cyb .cYd img {
+body .CYB .cyb .Cyb .cYd p {
+  font-size: 12px;
+}
+body .CYB .cyb .Cyb .cYd > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+body .CYB .cyb .Cyb .cYd > a::before {
+  transition: 1s;
+}
+body .CYB .cyb .Cyb .cYd > a:hover:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  opacity: 0.5;
+  z-index: 5;
+}
+body .CYB .cyb .Cyb .cYd > a img {
   width: 283px;
   height: 309px;
+}
+body .CYB .cyb .Cyb .cYd > span {
+  font-size: 50px;
+  position: absolute;
+  color: #eee;
+  bottom: 0;
+  left: 0;
 }
 body .CYB .cyb .BOXX {
   width: 1209px;
