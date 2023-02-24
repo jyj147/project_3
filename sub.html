@@ -135,12 +135,17 @@
       <div class="sUb">
         <div class="sUbp"><img src="img/chimae.jpg" alt=""></div>
         <div class="sUbt">
-          <div class="T"></div>
+          <!-- <div class="T"></div>
           <div class="Au"></div>
           <div class="P"></div>
           <div class="SP"></div>
           <div class="J"></div>
-          <div class="ST"></div>
+          <div class="ST"></div> -->
+
+          <div id="tmpBox">
+
+          </div>
+
 
           <div class="OP">
             <div class="on"><img src="img/on.jpg" alt="">
@@ -347,33 +352,47 @@
 
     <script>
 
-      $.ajax({
-        method: "GET",
-        url: "https://dapi.kakao.com/v3/search/book?target=title",
-        data: { query: "치매의 모든 것" },
-        headers: { Authorization: "KakaoAK 7e55dc837ebf9856b2d84e9936a60473" }
-      })
-        .done(function (msg) {
-          console.log(msg);
-          // for문 (8개)
-          var divs = document.getElementsByTagName('div');
+      // $.ajax({
+      //   method: "GET",
+      //   url: "https://dapi.kakao.com/v3/search/book?target=title",
+      //   data: { query: "치매의 모든 것" },
+      //   headers: { Authorization: "KakaoAK 7e55dc837ebf9856b2d84e9936a60473" }
+      // })
+      //   .done(function (msg) {
+      //     console.log(msg);
+      //     // for문 (8개)
+      //     var divs = document.getElementsByTagName('div');
 
-          for (var i = 0; i < divs.length; i++) {
+      //     for (var i = 0; i < divs.length; i++) {
 
-            // $(".sUbp").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
-            $(".T").eq(i).append("<h1>제목 :" + msg.documents[i].title + "</h1>");
-            $(".Au").eq(i).append("<h2>작가 :" + msg.documents[i].authors + "</h2>");
-            $(".P").eq(i).append("<h3>가격 :" + msg.documents[i].price + "</h3>");
-            $(".SP").eq(i).append("<h3>할인 가격 :" + msg.documents[i].sale_price + "</h3>");
-            $(".J").eq(i).append("<h3>" + msg.documents[i].status + "</h3>");
+      //       // $(".sUbp").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
+      //       $(".T").eq(i).append("<h1>제목 :" + msg.documents[i].title + "</h1>");
+      //       $(".Au").eq(i).append("<h2>작가 :" + msg.documents[i].authors + "</h2>");
+      //       $(".P").eq(i).append("<h3>가격 :" + msg.documents[i].price + "</h3>");
+      //       $(".SP").eq(i).append("<h3>할인 가격 :" + msg.documents[i].sale_price + "</h3>");
+      //       $(".J").eq(i).append("<h3>" + msg.documents[i].status + "</h3>");
 
-            var str = msg.documents[i].contents;
-            var str2 = str.substring(0, 300);
+      //       var str = msg.documents[i].contents;
+      //       var str2 = str.substring(0, 300);
 
-            $(".ST").eq(i).append("<p>" + str2 + "...</p>");
+      //       $(".ST").eq(i).append("<p>" + str2 + "...</p>");
 
-          }
-        });
+      //     }
+      //   });
+
+      $(function () {
+
+$.get("./sub_txt/txt1.txt", function (data) {
+
+    $("#tmpBox").html(data);
+
+
+})
+
+
+});
+
+
     </script>
 
     <footer>
