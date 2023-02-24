@@ -454,19 +454,81 @@ body .CYB .cyb .Cyb .cYb {
   width: 283px;
   height: 309px;
   margin-top: 115px;
+  position: relative;
+  overflow: hidden;
 }
-body .CYB .cyb .Cyb .cYb img {
+body .CYB .cyb .Cyb .cYb p {
+  font-size: 12px;
+}
+body .CYB .cyb .Cyb .cYb > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+body .CYB .cyb .Cyb .cYb > a::before {
+  transition: 1s;
+}
+body .CYB .cyb .Cyb .cYb > a:hover:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  opacity: 0.5;
+  z-index: 5;
+}
+body .CYB .cyb .Cyb .cYb > a img {
   width: 283px;
   height: 309px;
+}
+body .CYB .cyb .Cyb .cYb > span {
+  font-size: 50px;
+  position: absolute;
+  color: #eee;
+  bottom: 0;
+  left: 0;
 }
 body .CYB .cyb .Cyb .cYc {
   width: 283px;
   height: 309px;
   margin-top: 115px;
+  position: relative;
+  overflow: hidden;
 }
-body .CYB .cyb .Cyb .cYc img {
+body .CYB .cyb .Cyb .cYc p {
+  font-size: 12px;
+}
+body .CYB .cyb .Cyb .cYc > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+body .CYB .cyb .Cyb .cYc > a::before {
+  transition: 1s;
+}
+body .CYB .cyb .Cyb .cYc > a:hover:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  opacity: 0.5;
+  z-index: 5;
+}
+body .CYB .cyb .Cyb .cYc > a img {
   width: 283px;
   height: 309px;
+}
+body .CYB .cyb .Cyb .cYc > span {
+  font-size: 50px;
+  position: absolute;
+  color: #eee;
+  bottom: 0;
+  left: 0;
 }
 body .CYB .cyb .Cyb .cYd {
   width: 283px;
