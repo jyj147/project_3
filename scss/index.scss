@@ -9,7 +9,7 @@ body {
         background-color: #ffffff;
         display: flex;
         justify-content: space-around;
-    }
+        }
 
     .DBB {
         width: 1290px;
@@ -20,17 +20,6 @@ body {
     .DBt {
         font-size: 55px;
         text-align: center;
-        //    text::before{
-        //         left: auto;
-        //         right: auto;
-        //         position: absolute;
-        //         z-index: 1;
-        //         bottom: 0;
-        //         left: 50%;
-        //         -webkit-transform: translateX(-50%);
-        //         transform: translateX(-50%);
-        //         background-color: #121212;
-        //     }
     }
 
     .DBb {
@@ -67,8 +56,6 @@ body {
             }
         }
     }
-
-
 
     .sogaet {
         width: 1290px;
@@ -217,7 +204,6 @@ body {
             height: 700px;
             margin-top: 90px;
 
-
             p {
                 text-align: center;
                 font-size: 55px;
@@ -262,7 +248,6 @@ body {
                             z-index: 5;
 
                         }
-
 
                         img {
                             width: 283px;
@@ -312,7 +297,6 @@ body {
 
                         }
 
-
                         img {
                             width: 283px;
                             height: 309px;
@@ -360,7 +344,6 @@ body {
                             z-index: 5;
 
                         }
-
 
                         img {
                             width: 283px;
@@ -410,7 +393,6 @@ body {
 
                         }
 
-
                         img {
                             width: 283px;
                             height: 309px;
@@ -453,7 +435,6 @@ body {
                 }
             }
         }
-
     }
 
     .PR {
@@ -542,7 +523,6 @@ body {
                 }
             }
         }
-
     }
 
     .picture {
@@ -582,7 +562,6 @@ body {
                     font-size: 20px;
                     color: #f5f5f4;
                 }
-
             }
 
             .BTN {
@@ -605,9 +584,7 @@ body {
                     border: #eee solid 2px;
                 }
             }
-
         }
-
     }
 
     .empty {
@@ -625,10 +602,8 @@ body {
         justify-content: space-between;
 
         .Dif {
-            // width: 1290px;
             width: 60%;
             height: 604px;
-            // position: relative;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
@@ -636,10 +611,6 @@ body {
             .hd {
                 width: 100%;
                 height: 53px;
-                // position: absolute;
-                // transform: translate(-50%, -50%);
-                // left: 689px;
-                // top: 36px;
 
                 p {
                     font-size: 19px;
@@ -650,10 +621,6 @@ body {
             .hdp {
                 width: 49%;
                 height: 500px;
-                // position: absolute;
-                // top: 349px;
-                // left: 467px;
-                // transform: translate(-50%, -50%);
 
                 img {
                     width: 100%;
@@ -665,20 +632,14 @@ body {
                 width: 49%;
                 height: 500px;
                 background-color: #ffffff;
-                // position: absolute;
-                // top: 349px;
-                // left: 917px;
-                // transform: translate(-50%, -50%);
 
                 .Hdt {
-                    // width: 271px;
                     height: 66px;
                     background-color: #ffffff;
                     font-size: 40px;
                 }
 
                 .Hdtt {
-                    // width: 355px;
                     height: 28px;
                     background-color: #ffffff;
                     margin-top: 64px;
@@ -690,7 +651,6 @@ body {
                 }
 
                 .Hdttt {
-                    // width: 355px;
                     height: 155px;
                     background-color: #ffffff;
                     font-size: 18px;
@@ -722,20 +682,12 @@ body {
                         font-weight: bold;
                     }
                 }
-
             }
-
-
         }
 
         .Dem {
             width: 35%;
             height: 604px;
-            // position: absolute;
-            // transform: translate(-50%, -50%);
-            // top: 301px;
-            // left: 1612px;
-
 
             .Demt {
                 width: 209px;
@@ -791,7 +743,6 @@ body {
                 }
             }
         }
-
     }
 }
 
