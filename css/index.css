@@ -252,7 +252,7 @@ footer .FT {
 }
 footer .FT .gg {
   width: 1290px;
-  height: 120px;
+  height: 80px;
 }
 footer .FT .GG {
   width: 1290px;
@@ -981,6 +981,5 @@ body .dif .Dem .BO .BKtt .BKt h6 {
 
 .EMPTY {
   width: 100%;
-  height: 44px;
   background-color: #ffffff;
 }
