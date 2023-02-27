@@ -2,9 +2,9 @@
 
 @import "reset", "common";
 
-
 body {
 
+    
     .SUB {
         width: 100%;
 
@@ -199,6 +199,24 @@ body {
     background-color: #F5F5F4;
     display: flex;
     justify-content: center;
+    .star-rating {
+        width: 205px;
+      }
+  
+      .star-rating,
+      .star-rating span {
+        display: inline-block;
+        height: 39px;
+        overflow: hidden;
+        background: url(img/star.png)no-repeat;
+        width: 80%;
+      }
+  
+      .star-rating span {
+        background-position: left bottom;
+        line-height: 0;
+        vertical-align: top;
+      }
 
     .rv1 {
         width: 660px;
@@ -206,17 +224,8 @@ body {
         padding: 0px 15px;
         margin-top: 30px;
 
-        .star-rating {
-            width: 205px;
-            height: 39px;
-            margin-top: 15px;
         }
 
-        .graph {
-            margin-top: 74px;
-            opacity: 0;
-            transition: 0.25s;
-        }
 
         p {
             color: #121212;
@@ -227,7 +236,9 @@ body {
         span {
             color: #DE3241;
             font-size: 54px;
+           
         }
+        
 
         .gr {
             width: 553px;
@@ -239,6 +250,7 @@ body {
                 height: 261px;
             }
         }
+        
     }
 
     .rv2 {

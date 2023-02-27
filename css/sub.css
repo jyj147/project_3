@@ -247,6 +247,13 @@ footer .LIttt a:hover {
   color: black;
 }
 
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 body .SUB {
   width: 100%;
 }
@@ -426,6 +433,21 @@ body .SUB .Sub .sUb .sUbt .N .B button {
   margin-top: 74px;
   opacity: 0;
   transition: 0.25s;
+}
+.rivew .rv1 .graph .star-rating {
+  width: 205px;
+}
+.rivew .rv1 .graph .star-rating,
+.rivew .rv1 .graph .star-rating span {
+  display: inline-block;
+  height: 39px;
+  overflow: hidden;
+  background: url(img/star.png) no-repeat;
+}
+.rivew .rv1 .graph .star-rating span {
+  background-position: left bottom;
+  line-height: 0;
+  vertical-align: top;
 }
 .rivew .rv1 p {
   color: #121212;
