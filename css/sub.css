@@ -247,13 +247,6 @@ footer .LIttt a:hover {
   color: black;
 }
 
-ul,
-li,
-p {
-  margin: 0;
-  padding: 0;
-}
-
 body .SUB {
   width: 100%;
 }
@@ -424,106 +417,88 @@ body .SUB .Sub .sUb .sUbt .N .B button {
   padding: 0px 15px;
   margin-top: 30px;
 }
-.rivew .rv1 .star-rating {
-  width: 205px;
-  height: 39px;
-  margin-top: 15px;
-}
-.rivew .rv1 .graph {
-  margin-top: 74px;
-  opacity: 0;
-  transition: 0.25s;
-}
-.rivew .rv1 .graph .star-rating {
-  width: 205px;
-}
-.rivew .rv1 .graph .star-rating,
-.rivew .rv1 .graph .star-rating span {
-  display: inline-block;
-  height: 39px;
-  overflow: hidden;
-  background: url(img/star.png) no-repeat;
-}
-.rivew .rv1 .graph .star-rating span {
-  background-position: left bottom;
-  line-height: 0;
-  vertical-align: top;
-}
-.rivew .rv1 p {
+.rivew p {
   color: #121212;
   font-weight: bold;
   font-size: 23px;
 }
-.rivew .rv1 span {
+.rivew span {
   color: #DE3241;
   font-size: 54px;
 }
-.rivew .rv1 .gr {
+.rivew .gr {
   width: 553px;
   height: 250px;
   margin-top: 26px;
 }
-.rivew .rv1 .gr img {
+.rivew .gr img {
   width: 494px;
   height: 261px;
 }
-.rivew .rv2 {
+
+.rv2 {
   width: 660px;
   height: 745px;
   padding: 0px 15px;
   margin-top: 30px;
 }
-.rivew .rv2 .rv22 {
+.rv2 .rv22 {
   color: #121212;
   font-size: 25px;
   font-weight: bold;
   padding: 0px 0px 20px;
 }
-.rivew .rv2 .rv222 {
+.rv2 .rv222 {
   color: #797979;
   font-size: 18px;
   padding: 0px 0px 20px;
 }
-.rivew .rv2 form .ft {
+.rv2 form .ft {
   font-size: 16px;
   color: #121212;
 }
-.rivew .rv2 form .PPP {
+.rv2 form .PPP {
   width: 630px;
   height: 54px;
   margin: 10px 0px 32px 0px;
 }
-.rivew .rbt {
+
+.rbt {
   margin-top: -14px;
 }
-.rivew .rbt .RBT {
+.rbt .RBT {
   font-size: 16px;
   color: #797979;
   margin: -22px 0px 18px 24px;
 }
-.rivew .YR {
+
+.YR {
   color: #121212;
   font-size: 16px;
 }
-.rivew .RR {
+
+.RR {
   color: #121212;
   font-size: 16px;
   margin-top: 28px;
 }
-.rivew .RRB .TEXT {
+
+.RRB .TEXT {
   width: 630px;
   height: 96px;
   margin-top: 16px;
 }
-.rivew .RBt {
+
+.RBt {
   margin-top: 15px;
 }
-.rivew .RBt .RbTt {
+.RBt .RbTt {
   font-size: 16px;
   color: #797979;
   margin: -22px 0px 18px 24px;
 }
-.rivew .zxc button {
+
+.zxc button {
   width: 141px;
   height: 59px;
   background-color: #121212;
@@ -531,7 +506,7 @@ body .SUB .Sub .sUb .sUbt .N .B button {
   margin-top: 21px;
   border: #121212 2px solid;
 }
-.rivew .zxc button:hover {
+.zxc button:hover {
   background-color: white;
   border: #121212 2px solid;
   color: #121212;
