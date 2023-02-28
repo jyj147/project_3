@@ -4,7 +4,7 @@
 
 body {
 
-    
+
     .SUB {
         width: 100%;
 
@@ -30,7 +30,8 @@ body {
                     font-size: 15px;
                     font-family: 'IBM Plex Sans KR', sans-serif;
                 }
-                span{
+
+                span {
                     font-family: 'Tilt Neon', cursive;
                 }
             }
@@ -100,7 +101,8 @@ body {
                         font-size: 18px;
                         margin: 0px 0px 18px 52px;
                         color: #797979;
-                        p{
+
+                        p {
                             font-size: 17px;
                         }
                     }
@@ -208,7 +210,7 @@ body {
     background-color: #F5F5F4;
     display: flex;
     justify-content: center;
-    
+
 
     .rv1 {
         width: 660px;
@@ -216,141 +218,142 @@ body {
         padding: 0px 15px;
         margin-top: 30px;
 
-        }
-
-
-        p {
-            color: #121212;
-            font-weight: bold;
-            font-size: 23px;
-            font-family: 'Tilt Neon', cursive;
-        }
-
-        span {
-            color: #DE3241;
-            font-size: 54px;
-           
-        }
-        
-
-        .gr {
-            width: 553px;
-            height: 250px;
-            margin-top: 26px;
-
-            img {
-                width: 494px;
-                height: 261px;
-            }
-        }
-        .graph{
-            opacity: 0;
-            font-family: 'Tilt Neon', cursive;
-        }
-        
     }
 
-    .rv2 {
-        width: 660px;
-        height: 745px;
-        padding: 0px 15px;
-        margin-top: 30px;
 
-        .rv22 {
-            color: #121212;
-            font-size: 25px;
-            font-weight: bold;
-            padding: 0px 0px 20px;
-        }
+    p {
+        color: #121212;
+        font-weight: bold;
+        font-size: 23px;
+        font-family: 'Tilt Neon', cursive;
+    }
 
-        .rv222 {
-            color: #797979;
-            font-size: 18px;
-            padding: 0px 0px 20px;
-        }
+    span {
+        color: #DE3241;
+        font-size: 54px;
 
-        form {
-            .ft {
-                font-size: 16px;
-                color: #121212;
-                font-family: 'Tilt Neon', cursive;
-
-            }
-
-            .ftt{
-                font-size: 16px;
-                color: #121212;
-                font-family: 'Tilt Neon', cursive;
-            }
-
-            .PPP {
-                width: 630px;
-                height: 54px;
-                margin: 10px 0px 32px 0px;
-            }
+    }
 
 
+    .gr {
+        width: 553px;
+        height: 250px;
+        margin-top: 26px;
+
+        img {
+            width: 494px;
+            height: 261px;
         }
     }
 
-    .rbt {
-        margin-top: -14px;
+    .graph {
+        opacity: 0;
+        font-family: 'Tilt Neon', cursive;
+    }
 
-        .RBT {
+}
+
+.rv2 {
+    width: 660px;
+    height: 745px;
+    padding: 0px 15px;
+    margin-top: 30px;
+
+    .rv22 {
+        color: #121212;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 0px 0px 20px;
+    }
+
+    .rv222 {
+        color: #797979;
+        font-size: 18px;
+        padding: 0px 0px 20px;
+    }
+
+    form {
+        .ft {
             font-size: 16px;
-            color: #797979;
-            margin: -22px 0px 18px 24px;
+            color: #121212;
+            font-family: 'Tilt Neon', cursive;
+
         }
-    }
 
-    .YR {
-        color: #121212;
-        font-size: 16px;
-    }
+        .ftt {
+            font-size: 16px;
+            color: #121212;
+            font-family: 'Tilt Neon', cursive;
+        }
 
-    .RR {
-        color: #121212;
-        font-size: 16px;
-        margin-top: 28px;
-    }
-
-    .RRB {
-        .TEXT {
+        .PPP {
             width: 630px;
-            height: 96px;
-            margin-top: 16px;
+            height: 54px;
+            margin: 10px 0px 32px 0px;
         }
+
+
     }
+}
 
-    .RBt {
-        margin-top: 15px;
+.rbt {
+    margin-top: -14px;
 
-        .RbTt {
-            font-size: 16px;
-            color: #797979;
-            margin: -22px 0px 18px 24px;
-        }
+    .RBT {
+        font-size: 16px;
+        color: #797979;
+        margin: -22px 0px 18px 24px;
     }
+}
 
-    .zxc {
-        button {
-            width: 141px;
-            height: 52px;
-            background-color: #121212;
-            color: white;
-            margin-top: 21px;
+.YR {
+    color: #121212;
+    font-size: 16px;
+}
+
+.RR {
+    color: #121212;
+    font-size: 16px;
+    margin-top: 28px;
+}
+
+.RRB {
+    .TEXT {
+        width: 630px;
+        height: 96px;
+        margin-top: 16px;
+    }
+}
+
+.RBt {
+    margin-top: 15px;
+
+    .RbTt {
+        font-size: 16px;
+        color: #797979;
+        margin: -22px 0px 18px 24px;
+    }
+}
+
+.zxc {
+    button {
+        width: 141px;
+        height: 52px;
+        background-color: #121212;
+        color: white;
+        margin-top: 21px;
+        border: #121212 2px solid;
+        font-family: 'Tilt Neon', cursive;
+        font-size: 14px;
+
+        &:hover {
+            background-color: white;
             border: #121212 2px solid;
-            font-family: 'Tilt Neon', cursive;
-            font-size: 14px;
-
-            &:hover {
-                background-color: white;
-                border: #121212 2px solid;
-                color: #121212;
-                font-weight: bold;
-            }
+            color: #121212;
+            font-weight: bold;
         }
     }
+}
 
 
 
@@ -406,7 +409,8 @@ body {
             width: 190px;
             height: 140px;
             text-align: center;
-            p{
+
+            p {
                 margin-top: 15px;
             }
         }
