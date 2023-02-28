@@ -28,6 +28,7 @@ body {
 
                 p {
                     font-size: 15px;
+                    font-family: 'IBM Plex Sans KR', sans-serif;
                 }
                 span{
                     font-family: 'Tilt Neon', cursive;
@@ -64,6 +65,7 @@ body {
                 .sUbt {
                     width: 849px;
                     height: 672px;
+                    font-family: 'IBM Plex Sans KR', sans-serif;
 
                     .T {
                         margin: 0px 0px 18px 48px;
@@ -191,7 +193,7 @@ body {
 
         p {
             text-align: center;
-            font-weight: bold;
+            font-family: 'Tilt Neon', cursive;
             color: #121212;
             font-size: 20px;
             width: 100%;
@@ -398,6 +400,7 @@ body {
         height: 150px;
         display: flex;
         justify-content: space-between;
+        font-family: 'IBM Plex Sans KR', sans-serif;
 
         .PPKT {
             width: 190px;

@@ -441,6 +441,7 @@ body .sogaet {
   height: 163px;
   display: flex;
   justify-content: space-between;
+  font-family: "IBM Plex Sans KR", sans-serif;
 }
 body .sogaet .st {
   width: 190px;

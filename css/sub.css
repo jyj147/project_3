@@ -278,6 +278,7 @@ body .SUB .subshopt .subs {
 }
 body .SUB .subshopt .subs p {
   font-size: 15px;
+  font-family: "IBM Plex Sans KR", sans-serif;
 }
 body .SUB .subshopt .subs span {
   font-family: "Tilt Neon", cursive;
@@ -309,6 +310,7 @@ body .SUB .Sub .sUb .sUbp img {
 body .SUB .Sub .sUb .sUbt {
   width: 849px;
   height: 672px;
+  font-family: "IBM Plex Sans KR", sans-serif;
 }
 body .SUB .Sub .sUb .sUbt .T {
   margin: 0px 0px 18px 48px;
@@ -412,7 +414,7 @@ body .SUB .Sub .sUb .sUbt .N .B button {
 }
 .rv .rvb p {
   text-align: center;
-  font-weight: bold;
+  font-family: "Tilt Neon", cursive;
   color: #121212;
   font-size: 20px;
   width: 100%;
@@ -581,6 +583,7 @@ body .SUB .Sub .sUb .sUbt .N .B button {
   height: 150px;
   display: flex;
   justify-content: space-between;
+  font-family: "IBM Plex Sans KR", sans-serif;
 }
 .PR .PPKt .PPKT {
   width: 190px;
