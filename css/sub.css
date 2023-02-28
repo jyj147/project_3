@@ -249,6 +249,7 @@ footer .LIttt a:hover {
 .GET .GETtttr {
   color: red;
   margin: 73px 0px 0px 18px;
+  font-family: "Tilt Neon", cursive;
 }
 .GET .GETtttr:hover {
   color: black;
@@ -338,6 +339,9 @@ body .SUB .Sub .sUb .sUbt .ST {
   margin: 0px 0px 18px 52px;
   color: #797979;
 }
+body .SUB .Sub .sUb .sUbt .ST p {
+  font-size: 17px;
+}
 body .SUB .Sub .sUb .sUbt .OP {
   width: 172px;
   height: 138px;
@@ -389,6 +393,7 @@ body .SUB .Sub .sUb .sUbt .N .B button {
   text-align: center;
   font-size: 17px;
   color: #5a5757;
+  font-size: 14px;
 }
 
 .rv {
@@ -397,7 +402,7 @@ body .SUB .Sub .sUb .sUbt .N .B button {
 }
 .rv .rvb {
   width: 221px;
-  height: 70px;
+  height: 59px;
   background-color: white;
   margin-left: 305px;
   display: flex;
@@ -411,7 +416,7 @@ body .SUB .Sub .sUb .sUbt .N .B button {
   color: #121212;
   font-size: 20px;
   width: 100%;
-  line-height: 68px;
+  line-height: 56px;
 }
 
 .rivew {
@@ -521,7 +526,7 @@ body .SUB .Sub .sUb .sUbt .N .B button {
 
 .zxc button {
   width: 141px;
-  height: 59px;
+  height: 52px;
   background-color: #121212;
   color: white;
   margin-top: 21px;
