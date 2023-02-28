@@ -134,7 +134,7 @@ $(function () {
 
   setInterval(slide, 3000);
 
-  
+
 
 });
 

@@ -113,23 +113,23 @@ $(document).ready(function () {
         url: "https://dapi.kakao.com/v3/search/book?target=title",
         data: { query: "ballet" },
         headers: { Authorization: "KakaoAK 7e55dc837ebf9856b2d84e9936a60473" }
-      })
+    })
         .done(function (msg) {
-          console.log(msg);
-          // for문 (8개)
-          var divs = document.getElementsByTagName('div');
-    
-          for (var i = 0; i < divs.length; i++) {
-    
-            $(".WNi").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
-            $(".WNit").eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
-            $(".WP").eq(i).append("<h6>" + msg.documents[i].price + "</h6>");
-    
-            var str = msg.documents[i].contents;
-            var str2 = str.substring(0, 60);
-    
-          }
-    
+            console.log(msg);
+            // for문 (8개)
+            var divs = document.getElementsByTagName('div');
+
+            for (var i = 0; i < divs.length; i++) {
+
+                $(".WNi").eq(i).append("<img src='" + msg.documents[i].thumbnail + "'/>");
+                $(".WNit").eq(i).append("<h4>" + msg.documents[i].title + "</h4>");
+                $(".WP").eq(i).append("<h6>" + msg.documents[i].price + "</h6>");
+
+                var str = msg.documents[i].contents;
+                var str2 = str.substring(0, 60);
+
+            }
+
         });
 
 });
