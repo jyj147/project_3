@@ -34,7 +34,7 @@ $(document).ready(function () {
                 var bottom_of_window = $(window).scrollTop() + $(window).height() - 100;
 
                 if (bottom_of_window > bottom_of_element) {
-                    $(this).animate({ 'opacity': '1' }, 100);
+                    $(this).animate({ 'opacity': '1' }, 300);
                 }
             });
         });

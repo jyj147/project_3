@@ -435,6 +435,9 @@ body .SUB .Sub .sUb .sUbt .N .B button {
   width: 494px;
   height: 261px;
 }
+.rivew .graph {
+  opacity: 0;
+}
 
 .rv2 {
   width: 660px;
@@ -454,6 +457,10 @@ body .SUB .Sub .sUb .sUbt .N .B button {
   padding: 0px 0px 20px;
 }
 .rv2 form .ft {
+  font-size: 16px;
+  color: #121212;
+}
+.rv2 form .ftt {
   font-size: 16px;
   color: #121212;
 }

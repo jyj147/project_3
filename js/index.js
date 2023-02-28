@@ -76,7 +76,7 @@ $(document).ready(function () {
   $.ajax({
     method: "GET",
     url: "https://dapi.kakao.com/v3/search/book?target=title",
-    data: { query: "ballet" },
+    data: { query: "문명" },
     headers: { Authorization: "KakaoAK 7e55dc837ebf9856b2d84e9936a60473" }
   })
     .done(function (msg) {
