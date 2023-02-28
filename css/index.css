@@ -164,6 +164,7 @@ footer .FT .WNt {
   color: black;
   font-weight: bold;
   margin-top: 14px;
+  font-family: "Playfair Display", serif;
 }
 footer .FT .wni {
   width: 38%;
@@ -209,6 +210,7 @@ footer .LI .LIt {
   color: black;
   margin: 17px;
   font-weight: bold;
+  font-family: "Playfair Display", serif;
 }
 footer .LItt {
   width: 40%;
@@ -230,6 +232,7 @@ footer .LIttt a:hover {
   color: black;
   font-weight: bold;
   margin: 17px;
+  font-family: "Playfair Display", serif;
 }
 .GET .GETtt {
   width: 74%;
@@ -305,9 +308,10 @@ body .slidett {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 53px;
+  font-size: 57px;
   color: #fff;
   font-weight: bold;
+  font-family: "Playfair Display", serif;
 }
 body .cYa .info {
   opacity: 0;
@@ -392,6 +396,7 @@ body .DBB {
 body .DBt {
   font-size: 55px;
   text-align: center;
+  font-family: "Playfair Display", serif;
 }
 body .DBb {
   width: 1290px;
@@ -482,6 +487,7 @@ body .up .upp .Up {
 }
 body .up .upp .Up .uppt {
   color: #fff;
+  font-family: "Playfair Display", serif;
 }
 body .up .UP {
   width: 682px;
@@ -549,6 +555,7 @@ body .CYB .cyb p {
   text-align: center;
   font-size: 55px;
   font-weight: bold;
+  font-family: "Playfair Display", serif;
 }
 body .CYB .cyb .Cyb {
   width: 100%;
@@ -595,6 +602,7 @@ body .CYB .cyb .Cyb .cYa > span {
   color: #eee;
   bottom: 0;
   left: 0;
+  font-family: "Playfair Display", serif;
 }
 body .CYB .cyb .Cyb .cYb {
   width: 283px;
@@ -635,6 +643,7 @@ body .CYB .cyb .Cyb .cYb > span {
   color: #eee;
   bottom: 0;
   left: 0;
+  font-family: "Playfair Display", serif;
 }
 body .CYB .cyb .Cyb .cYc {
   width: 283px;
@@ -675,6 +684,7 @@ body .CYB .cyb .Cyb .cYc > span {
   color: #eee;
   bottom: 0;
   left: 0;
+  font-family: "Playfair Display", serif;
 }
 body .CYB .cyb .Cyb .cYd {
   width: 283px;
@@ -715,6 +725,7 @@ body .CYB .cyb .Cyb .cYd > span {
   color: #eee;
   bottom: 0;
   left: 0;
+  font-family: "Playfair Display", serif;
 }
 body .CYB .cyb .BOXX {
   width: 1209px;
@@ -746,6 +757,9 @@ body .PR {
   display: flex;
   justify-content: center;
 }
+body .PR h4 {
+  font-family: "Playfair Display", serif;
+}
 body .PR .prr {
   width: 1209px;
   height: 981px;
@@ -770,6 +784,7 @@ body .PR .prr .prp {
   color: #121212;
   margin-top: 110px;
   text-align: center;
+  font-family: "Playfair Display", serif;
 }
 body .PR .prr .PRB {
   width: 1290px;
@@ -837,6 +852,7 @@ body .picture .Picture .pi {
 body .picture .Picture .pi p {
   font-size: 55px;
   color: #f5f5f4;
+  font-family: "Playfair Display", serif;
 }
 body .picture .Picture .PI {
   width: 100%;
@@ -846,6 +862,7 @@ body .picture .Picture .PI {
 body .picture .Picture .PI p {
   font-size: 20px;
   color: #f5f5f4;
+  font-family: "Playfair Display", serif;
 }
 body .picture .Picture .BTN {
   width: 16%;
@@ -892,6 +909,7 @@ body .dif .Dif .hd {
 body .dif .Dif .hd p {
   font-size: 19px;
   color: #121212;
+  font-family: "Playfair Display", serif;
 }
 body .dif .Dif .hdp {
   width: 49%;
@@ -956,6 +974,7 @@ body .dif .Dem .Demt {
   width: 209px;
   height: 53px;
   line-height: 52px;
+  font-family: "Playfair Display", serif;
 }
 body .dif .Dem .BO {
   width: 64%;

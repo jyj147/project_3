@@ -164,6 +164,7 @@ footer .FT .WNt {
   color: black;
   font-weight: bold;
   margin-top: 14px;
+  font-family: "Playfair Display", serif;
 }
 footer .FT .wni {
   width: 38%;
@@ -209,6 +210,7 @@ footer .LI .LIt {
   color: black;
   margin: 17px;
   font-weight: bold;
+  font-family: "Playfair Display", serif;
 }
 footer .LItt {
   width: 40%;
@@ -230,6 +232,7 @@ footer .LIttt a:hover {
   color: black;
   font-weight: bold;
   margin: 17px;
+  font-family: "Playfair Display", serif;
 }
 .GET .GETtt {
   width: 74%;
