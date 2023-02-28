@@ -53,12 +53,14 @@ body {
         height: 60px;
         line-height: 60px;
         position: absolute;
-        top: 22%;
+        top: 28%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
         color: #fff;
         font-weight: bold;
+        font-size: 19px;
+        font-family : 'Tilt Neon', cursive;
     }
 
     .slidett {
@@ -788,8 +790,7 @@ body {
                 p {
                     font-size: 19px;
                     color: #121212;
-                    font-family: 'Playfair Display', serif;
-
+                    font-family: 'Tilt Neon', cursive;
                 }
             }
 
@@ -868,7 +869,7 @@ body {
                 width: 209px;
                 height: 53px;
                 line-height: 52px;
-                font-family: 'Playfair Display', serif;
+                font-family: 'Tilt Neon', cursive;
             }
 
             .BO {

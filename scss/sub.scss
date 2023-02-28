@@ -354,8 +354,10 @@ body {
             width: 1291px;
             height: 63px;
             text-align: center;
-            font-size: 39px;
+            font-size: 55px;
             color: #191919;
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
         }
 
         .PPK {
@@ -410,12 +412,15 @@ body {
 
         a {
             color: white;
-
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
         }
 
         .sese {
             opacity: 0;
             transition: 0.3s;
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
         }
     }
 

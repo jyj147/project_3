@@ -27,6 +27,7 @@ ol {
 
 a {
   text-decoration: none;
+  font-family: "Tilt Neon", cursive;
 }
 
 header {
@@ -53,6 +54,7 @@ header .HD1 .Welcome p {
   color: #797979;
   padding: 23px;
   font-size: 12px;
+  font-family: "Tilt Neon", cursive;
 }
 header .HD1 .Register {
   width: 800px;
@@ -114,6 +116,7 @@ header .HD2 .menu .mu {
   padding: 15px 0 0 28px;
   font-size: 18px;
   color: #797979;
+  font-family: "Tilt Neon", cursive;
 }
 header .HD2 .menu .mu a:hover {
   color: #De3241;
@@ -538,8 +541,10 @@ body .SUB .Sub .sUb .sUbt .N .B button {
   width: 1291px;
   height: 63px;
   text-align: center;
-  font-size: 39px;
+  font-size: 55px;
   color: #191919;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
 }
 .PR .PRR .PPK {
   width: 1290px;
@@ -586,10 +591,14 @@ body .SUB .Sub .sUb .sUbt .N .B button {
 }
 .SALE .SA a {
   color: white;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
 }
 .SALE .SA .sese {
   opacity: 0;
   transition: 0.3s;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
 }
 .SALE button {
   background-color: #121212;
